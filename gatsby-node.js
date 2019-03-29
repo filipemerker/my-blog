@@ -19,6 +19,8 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                page
+                tags
               }
             }
           }
@@ -30,21 +32,39 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
 
-    // Create blog posts pages.
+    const components = {
+      post: blogPost
+    }
     const posts = result.data.allMarkdownRemark.edges
+    const categories = posts.reduce((acc, post) => {
+      const category = post.node.fields.slug.split(`/`)
+      console.log('')
 
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+      return acc.includes(category) ? acc : acc.concat(category)
+    }, [])
 
-      createPage({
-        path: post.node.fields.slug,
-        component: blogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
+    console.log(categories)
+
+
+
+    categories.forEach((category, index) => {
+      const list = posts.filter(({ node: { fields: { slug = '' } } }) => (slug === category))
+      console.log(list)
+
+      list.forEach((post, index) => {
+        const previous = index === posts.length - 1 ? null : posts[index + 1].node
+        const next = index === 0 ? null : posts[index - 1].node
+
+        createPage({
+          path: post.node.fields.slug,
+          component: components[post.node.frontmatter.page],
+          context: {
+            slug: post.node.fields.slug,
+            category,
+            previous,
+            next,
+          },
+        })
       })
     })
 

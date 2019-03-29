@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Estudos Bíblicos`,
+    author: `Filipe Merker`,
+    description: `O melhor lugar para encontrar conteúdo relacionado a estudos bíblicos, devocionais e livros cristãos de qualidade.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `filipemerker`,
     },
   },
   plugins: [
@@ -30,7 +30,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 630,
             },
           },
           {
@@ -57,8 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Estudos Bíblicos`,
+        short_name: `EstudosBiblicos`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
