@@ -5,11 +5,11 @@ import Header from "./header"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-
+    const { location, title, children, category } = this.props
+    console.log(category)
     return (
       <div>
-        <Header {...{ location, title }} />
+        <Header {...{ location, title, category }} />
         <main
           style={{
             marginLeft: `auto`,

@@ -12,7 +12,8 @@ import Image from "gatsby-image"
 import { rhythm, scale } from "../utils/typography"
 
 function Header(props) {
-  const { location, title } = props
+  const { location, title, category } = props
+
   const home = location.pathname === `${__PATH_PREFIX__}/`
   let heading
 
@@ -46,6 +47,7 @@ function Header(props) {
           fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
           position: 'absolute',
+          color: `#353535`
         }}
       >
         <Link
@@ -57,6 +59,19 @@ function Header(props) {
           to={`/`}
         >
           {title}
+        </Link>
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+            textTransform: `uppercase`,
+            fontSize: 20,
+            fontWeight: 300
+          }}
+          to={`/${category}`}
+        >
+          {` | ${category.split('-').join(' ')}`}
         </Link>
       </h3>
     )
@@ -71,7 +86,7 @@ function Header(props) {
             display: `flex`,
             justifyContent: `center`,
             alignItems: `center`,
-            background: `white`,
+            background: home ? `white` : `#b3c7c7`,
             marginBottom: home ? rhythm(2.5) : 0,
             minHeight: 70
           }}
