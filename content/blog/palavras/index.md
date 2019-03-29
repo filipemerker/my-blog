@@ -3,6 +3,7 @@ title: Palavras
 date: '2019-03-28T00:12:03.284Z'
 
 page: category
+category: palavras
 ---
 
 ![Cruz](./cross-mountain.jpg)

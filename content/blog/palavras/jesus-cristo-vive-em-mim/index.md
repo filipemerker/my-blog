@@ -4,6 +4,7 @@ date: "2015-05-28T22:40:32.169Z"
 description: O que significa que Cristo vive em mim? Qual o impacto que essa verdade deve ter na minha vida?
 
 page: post
+category: palavras
 tags: ['cristo', 'galatas', 'santidade']
 ---
 

@@ -4,7 +4,8 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const BlogPost = path.resolve(`./src/templates/blog-post.js`)
+  const Category = path.resolve(`./src/templates/category.js`)
   return graphql(
     `
       {
@@ -18,6 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
+                category
                 title
                 page
                 tags
@@ -33,33 +35,45 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     const components = {
-      post: blogPost
+      category: Category,
+      post: BlogPost
     }
-    const posts = result.data.allMarkdownRemark.edges
-    const categories = posts.reduce((acc, post) => {
-      const category = post.node.fields.slug.split(`/`)
-      console.log('')
+    const nodes = result.data.allMarkdownRemark.edges
+    const categories = nodes.reduce((acc, post) => {
+      const category = post.node.frontmatter.category
 
       return acc.includes(category) ? acc : acc.concat(category)
     }, [])
 
-    console.log(categories)
-
-
-
     categories.forEach((category, index) => {
-      const list = posts.filter(({ node: { fields: { slug = '' } } }) => (slug === category))
-      console.log(list)
+      const posts = nodes
+        .filter(post => post.node.frontmatter.category === category)
+        .filter(post => post.node.frontmatter.page === 'post')
+      const pages = nodes
+        .filter(post => post.node.frontmatter.page !== 'post')
 
-      list.forEach((post, index) => {
+      // create pages without navigation
+      pages.forEach(({ node }, index) => {
+        const { fields, frontmatter } = node
+
+        createPage({
+          path: fields.slug,
+          component: components[frontmatter.page],
+          context: { category }
+        })
+      })
+
+      // create posts with navigation
+      posts.forEach(({ node }, index) => {
+        const { fields, frontmatter } = node
         const previous = index === posts.length - 1 ? null : posts[index + 1].node
         const next = index === 0 ? null : posts[index - 1].node
 
         createPage({
-          path: post.node.fields.slug,
-          component: components[post.node.frontmatter.page],
+          path: fields.slug,
+          component: components[frontmatter.page],
           context: {
-            slug: post.node.fields.slug,
+            slug: fields.slug,
             category,
             previous,
             next,

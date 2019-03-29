@@ -4,6 +4,7 @@ date: "2015-05-28T22:40:32.169Z"
 description: O que podemos aprender com os valdenses sobre o princípio de sujeição às autoridades?
 
 page: post
+category: historia-da-igreja
 tags: ['historia da igreja', 'valdenses']
 ---
 

@@ -4,6 +4,7 @@ description: Muitos se perguntam como ouvir a voz de Deus. Veja aqui princípios
 date: "2015-05-01T22:12:03.284Z"
 
 page: post
+category: palavras
 tags: ['galatas', 'agostinho', 'santidade']
 ---
 

@@ -4,6 +4,7 @@ description: Assim como foi na igreja primitiva, sempre que há um renovo espiri
 date: "2015-05-28T22:40:32.169Z"
 
 page: post
+category: historia-da-igreja
 ---
 
 ![Cruz](./shore.jpg)
