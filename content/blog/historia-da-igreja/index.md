@@ -6,13 +6,10 @@ page: category
 category: historia-da-igreja
 ---
 
-> ...já não sou eu quem vive, mas **Cristo vive em mim**; e esse viver que, agora, tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.
+> Não os esconderemos dos nossos filhos; contaremos à próxima geração os louváveis feitos do Senhor, o seu poder e as maravilhas que fez.
 >
-> Gálatas 2:20
+> Salmos 78:4
 
-Penso que este é um dos textos mais bonitos de todo o Novo Testamento. Aqui, o Espírito Santo nos dá esperança de que, embora ainda tenhamos uma vida para viver nessa carne, temos a Jesus. Ele nos amou, se entregou por nós e vive em nós!
+Como diz o Salmo 78, quando olhamos para a nossa história com Deus, vemos que ela é também a história dos *feitos do Senhor, do seu poder e das maravilhas que fez*.
 
-Mas para que possamos extrair uma riqueza maior, vamos meditar mais profundamente no significado desse texto.
-
-## O que significa que Cristo vive em mim?
-
+Descubra **nos artigos abaixo** estudos e informações sobre a história da Igreja, para que as lembranças das maravilhas de Deus continuem passando de geração em geração!

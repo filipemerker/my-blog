@@ -1,7 +1,7 @@
 import React from "react"
+import styled from 'styled-components'
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -22,10 +22,10 @@ class BlogPostTemplate extends React.Component {
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <hr
           style={{
+            marginTop: rhythm(1),
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
 
         <ul
           style={{
@@ -34,20 +34,29 @@ class BlogPostTemplate extends React.Component {
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            margin: 0
           }}
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
+              <StyledLink to={previous.fields.slug} rel="prev">
+                ← {
+                    previous.frontmatter.title.length > 35
+                      ? `${previous.frontmatter.title.slice(0,35)}...`
+                      : previous.frontmatter.title
+                  }
+              </StyledLink>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
+              <StyledLink to={next.fields.slug} rel="next">
+                {
+                  next.frontmatter.title.length > 35
+                    ? `${next.frontmatter.title.slice(0,35)}...`
+                    : next.frontmatter.title
+                } →
+              </StyledLink>
             )}
           </li>
         </ul>
@@ -55,6 +64,16 @@ class BlogPostTemplate extends React.Component {
     )
   }
 }
+
+const StyledLink = styled(Link)`
+  color: #7f9e8e;
+  transition: all .15s linear;
+
+  &:hover {
+    text-decoration: none;
+    color: #444;
+  }
+`
 
 export default BlogPostTemplate
 

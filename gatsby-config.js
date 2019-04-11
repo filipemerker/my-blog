@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Estudos Bíblicos`,
+    title: `Examinando as Escrituras`,
     author: `Filipe Merker`,
     description: `O melhor lugar para encontrar conteúdo relacionado a estudos bíblicos, devocionais e livros cristãos de qualidade.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -9,6 +9,9 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +34,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
+              quality: 100
             },
           },
           {
@@ -50,20 +54,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: 'UA-28548241-3'
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Estudos Bíblicos`,
-        short_name: `EstudosBiblicos`,
+        name: `Examinando as Escrituras`,
+        short_name: `Examinando as Escrituras`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#b3c7c7`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/book.png`,
       },
     },
     `gatsby-plugin-offline`,

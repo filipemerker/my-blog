@@ -59,7 +59,10 @@ exports.createPages = ({ graphql, actions }) => {
         createPage({
           path: fields.slug,
           component: components[frontmatter.page],
-          context: { category }
+          context: {
+            category: frontmatter.category,
+            slug: fields.slug
+          }
         })
       })
 
@@ -73,8 +76,8 @@ exports.createPages = ({ graphql, actions }) => {
           path: fields.slug,
           component: components[frontmatter.page],
           context: {
+            category: frontmatter.category,
             slug: fields.slug,
-            category,
             previous,
             next,
           },

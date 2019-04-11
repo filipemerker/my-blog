@@ -1,12 +1,14 @@
 ---
 title: Como ouvir o falar de Deus?
 description: Muitos se perguntam como ouvir a voz de Deus. Veja aqui princípios para ter um relacionamento com Deus.
-date: "2015-05-01T22:12:03.284Z"
-type: ['post']
+date: "2019-03-15T22:12:03.284Z"
+
+page: post
+category: estudos-biblicos
 tags: ['galatas', 'agostinho', 'santidade']
 ---
 
-![Cruz](./cross-mountain.jpg)
+![Homem em um uma noite de céu estrelado](./man-at-night.jpg)
 
 > ...já não sou eu quem vive, mas **Cristo vive em mim**; e esse viver que, agora, tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.
 >
@@ -18,3 +20,6 @@ Mas para que possamos extrair uma riqueza maior, vamos meditar mais profundament
 
 ## O que significa que Cristo vive em mim?
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio nihil tempora, itaque explicabo qui iste quasi delectus quam perferendis! Voluptates molestiae exercitationem deleniti iste neque temporibus libero corrupti porro.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio nihil tempora, itaque explicabo qui iste quasi delectus quam perferendis! Voluptates molestiae exercitationem deleniti iste neque temporibus libero corrupti porro.
