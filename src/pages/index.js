@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
           Seja bem vindo e bons estudos!
         </Description>
         
-        <SectionTitle style={{ marginTop: 30 }}>Artigos recentes:</SectionTitle>
+        <SectionTitle style={{ marginTop: 30 }}>Textos recentes:</SectionTitle>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

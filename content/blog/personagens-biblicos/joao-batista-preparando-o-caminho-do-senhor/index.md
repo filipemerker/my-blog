@@ -1,6 +1,6 @@
 ---
 title: João Batista - Preparando o caminho do Senhor
-date: "2019-06-04T12:40:32.169Z"
+date: "2019-04-06T12:40:32.169Z"
 description: Quem foi João Batista e o que podemos aprender com o seu ministério?
 
 page: post
@@ -16,7 +16,17 @@ tags: ['cristocentrismo', 'joão batista', 'ministerio']
 >
 >  Tu, menino, **serás chamado profeta do Altíssimo, porque precederás o Senhor, preparando-lhe os caminhos**, para dar ao seu povo conhecimento da salvação, no redimi-lo dos seus pecados, graças à entranhável misericórdia de nosso Deus, pela qual nos visitará o sol nascente das alturas, para alumiar os que jazem nas trevas e na sombra da morte, e dirigir os nossos pés pelo caminho da paz.
 >
->  Lucas 1:67 e 76-19
+>  *Lucas 1:67 e 76-19*
+
+------
+
+Este texto é parte de uma série sobre João Batista
+
+1. [João Batista - Preparando o caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
+2. [João Batista - Conhecendo a Deus nos desertos](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
+3. [João Batista - Uma pregação centrada em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
+
+------
 
 Na Bíblia nós encontramos histórias de homens que foram usados por Deus para marcar época. Noé, Abraão, Ezequias, Esdras, Neemias e muitos outros. Esses são exemplos de homens que nos inspiram e nos ensinam com suas vidas muitas riquezas sobre relacionamento e intimidade com Deus.
 

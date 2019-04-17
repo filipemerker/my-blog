@@ -1,6 +1,18 @@
+/* eslint-disable */
 import React from "react"
 import styled from 'styled-components'
 import { Link, graphql } from "gatsby"
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+  EmailShareButton,
+
+  FacebookIcon,
+  TwitterIcon,
+  WhatsappIcon,
+  EmailIcon,
+} from 'react-share'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,6 +24,8 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
     const siteTitle = this.props.data.site.siteMetadata.title
 
+    console.log(this.props)
+
     return (
       <Layout location={this.props.location} title={siteTitle} category={frontmatter.category}>
         <SEO
@@ -20,6 +34,26 @@ class BlogPostTemplate extends React.Component {
         />
         <h1>{frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
+        <hr
+          style={{
+            marginTop: rhythm(1),
+            marginBottom: rhythm(1),
+          }}
+        />
+        <Share>
+          <FacebookShareButton url={this.props.location.href}>
+            <FacebookIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+          </FacebookShareButton>
+          <TwitterShareButton url={this.props.location.href}>
+            <TwitterIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+          </TwitterShareButton>
+          <WhatsappShareButton url={this.props.location.href}>
+            <WhatsappIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+          </WhatsappShareButton>
+          <EmailShareButton url={this.props.location.href}>
+            <EmailIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+          </EmailShareButton>
+        </Share>
         <hr
           style={{
             marginTop: rhythm(1),
@@ -64,6 +98,16 @@ class BlogPostTemplate extends React.Component {
     )
   }
 }
+
+const Share = styled.section`
+  display: flex;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 200px;
+  margin: 0 auto;
+`
 
 const StyledLink = styled(Link)`
   color: #7f9e8e;

@@ -1,5 +1,5 @@
 ---
-title: Estudos Bíblicos
+title: Personagens Bíblicos
 date: '2019-03-28T00:12:03.284Z'
 
 page: category
