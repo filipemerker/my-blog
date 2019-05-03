@@ -7,4 +7,4 @@
 <h1 align="center">
   Examinando as Escrituras
 </h1>
-<p>This is a personal blog about things related to theology. It is made with Gatsby and implements Onesignal's push notification subscription system.</p>
+<p>This is a personal blog where i write about things concerning theology. It is made with Gatsby and implements Onesignal's push notification subscription system.</p>
