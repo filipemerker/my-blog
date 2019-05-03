@@ -63,3 +63,5 @@ Qual a finalidade da meditação do salmista? **Incentivar adoradores**: "Tribut
 Esta deve ser a mesma finalidade do estudo da história hoje. Que ao encontrarmos a vida de Cristo na história, sendo expressada pela Igreja, possamos adorar a Deus pela sua fidelidade e misericódia através dos séculos. Possamos ver que o mesmo Deus que plantou a Igreja no início com poder e grandes maravilhas, continua fiel e poderoso ainda hoje.
 
 Portanto, creio que sim, podemos aprender com a história. **Devemos aprender com a história**. Aprender sobre Deus, sobre sua obra, seu caráter e fidelidade. Até o dia em que os séculos sejam consumados e o tempo não seja mais necessário. Até que chegue esse Dia, nós não os esconderemos dos nossos filhos e contaremos à próxima geração os louváveis feitos do Senhor, o seu poder e as maravilhas que fez, porque sua misericórdia dura para sempre.
+
+Por: **Filipe Merker**

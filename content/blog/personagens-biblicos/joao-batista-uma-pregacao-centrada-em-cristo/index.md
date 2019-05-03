@@ -125,3 +125,5 @@ Qual a nossa maior alegria? Somos a noiva e quem tem a noiva é o Noivo! Que Deu
 Se Deus realmente tocar o nosso coração e nos levar a um amor profundo, nossa pregação sempre será sobre ele. João pregava arrependimento, mas o centro da sua mensagem era Jesus. Hoje, vivemos em um mundo complexo, temos muitos assuntos para nos envolver, mas se Cristo for o centro daquilo que falamos e fazemos, se o Noivo for o motivo da nossa maior alegria, podemos estar seguros: nossa pregação será um testemunho completo!
 
 Que Deus desperte o nosso coração para um testemunho como esse!
+
+Por: **Filipe Merker**

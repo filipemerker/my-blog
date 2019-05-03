@@ -13,6 +13,9 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`
     },
     {
+      resolve: `gatsby-plugin-remove-serviceworker`
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -70,7 +73,6 @@ module.exports = {
         icon: `content/assets/book.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

@@ -129,3 +129,5 @@ Quem então era João? Um profeta. Muito mais que um profeta: um grande homem ao
 Esse é um chamado para os nossos dias! Que como povo de Deus, possamos aprender que o deserto é uma necessidade. Possamos nos deixar trabalhar em meio às lutas e necessidades. Mais de Ti Jesus e menos de nós, é o que queremos e sabemos que o deserto é o lugar onde vais nos ensinar essa vardade tão rica.
 
 Esse é o único caminho para aqueles de nós que desejam um verdadeiro ministério. Mais do que isso: esse é o único caminho para crescermos diante do Senhor.
+
+Por: **Filipe Merker**

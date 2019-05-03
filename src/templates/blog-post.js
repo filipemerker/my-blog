@@ -40,6 +40,15 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+          <CTA>Esse post foi importante para você? <strong>Clique abaixo</strong> e compartilhe para edificar outros.
+          <br /><br /><strong>Clique no sininho</strong> para ser avisado quando publicarmos algo novo! <br /><br /><em>(Se você chegou aqui pelo Instagram, talvez precise abrir o site diretamente no navegador do seu celular para ver o sininho.)</em></CTA>
+        <hr
+          style={{
+            marginTop: rhythm(1),
+            marginBottom: rhythm(1),
+          }}
+        />
+
         <Share>
           <FacebookShareButton url={this.props.location.href}>
             <FacebookIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
@@ -98,6 +107,17 @@ class BlogPostTemplate extends React.Component {
     )
   }
 }
+
+const CTA = styled.p`
+  text-align: center;
+  color: #8c8c8c;
+
+  em {
+    font-size: 13px;
+    line-height: 15px;
+    display: block;
+  }
+`
 
 const Share = styled.section`
   display: flex;

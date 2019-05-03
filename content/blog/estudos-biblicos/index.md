@@ -15,3 +15,4 @@ Deus não nos chama para uma vida superficial, mas para vivermos em águas profu
 Para isso Ele nos deixou sua Palavra. Uma fonte inesgotável de riquezas que nos levam em direção à essa vida que Deus planejou para nós.
 
 Abaixo você encontrará uma lista com diversos estudos sobre assuntos bíblicos para a sua edificação.
+

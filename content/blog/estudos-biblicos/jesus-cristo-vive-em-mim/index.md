@@ -85,3 +85,5 @@ Sim, para isso acontecer a cruz é indispensável, precisamos dizer não para a 
 A próxima vez que você entrar no seu ambiente de trabalho, lembre-se: em um certo sentido, Cristo entrou naquele ambiente. Cristo vive em você.
 
 Que o ministério do Espírito Santo seja bem sucedido na minha e na tua vida e a vida de Cristo seja clara e abundantemente vista em nossos dias, para a glória de Deus.
+
+Por: **Filipe Merker**

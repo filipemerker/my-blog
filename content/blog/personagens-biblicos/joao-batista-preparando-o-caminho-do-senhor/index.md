@@ -95,3 +95,5 @@ João Batista decidiu se esvaziar de si mesmo e buscar ao Senhor de todo o cora�
 Há um caminho a ser preparado na sua faculdade. Há um caminho a ser preparado no seu trabalho. Há um caminho a ser preparado da sua igreja local. Onde está a voz daqueles que diminuem para que Cristo cresça? Que nessa busca, Deus possa encontrar o nosso coração disposto. Que Ele venha, seja visto e ouvido, chova sua vida e sua justiça sobre nós!
 
 Nos próximos textos, continuaremos estudando sobre o ministério de João Batista, aprendendo princípios universais que precisam ser lembrados e devem estar presentes ainda hoje no serviço a Deus. 
+
+Por: **Filipe Merker**
