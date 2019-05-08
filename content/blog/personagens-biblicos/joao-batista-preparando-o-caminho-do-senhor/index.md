@@ -1,5 +1,5 @@
 ---
-title: João Batista - Preparando o caminho do Senhor
+title: Quem foi João Batista? Estudo 1
 date: "2019-04-06T12:40:32.169Z"
 description: Quem foi João Batista e o que podemos aprender com o seu ministério?
 
@@ -11,6 +11,8 @@ read: 6 minutos
 
 ![Homem caminhando no deserto](./desert.jpg)
 
+##Preparando o Caminho do Senhor
+
 >  Zacarias, seu pai, cheio do Espírito Santo, profetizou, dizendo:
 >
 >  [...]
@@ -18,16 +20,6 @@ read: 6 minutos
 >  Tu, menino, **serás chamado profeta do Altíssimo, porque precederás o Senhor, preparando-lhe os caminhos**, para dar ao seu povo conhecimento da salvação, no redimi-lo dos seus pecados, graças à entranhável misericórdia de nosso Deus, pela qual nos visitará o sol nascente das alturas, para alumiar os que jazem nas trevas e na sombra da morte, e dirigir os nossos pés pelo caminho da paz.
 >
 >  *Lucas 1:67 e 76-19*
-
-------
-
-Este texto é parte de uma série sobre João Batista
-
-1. [João Batista - Preparando o caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
-2. [João Batista - Conhecendo a Deus nos desertos](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
-3. [João Batista - Uma pregação centrada em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
-
-------
 
 Na Bíblia nós encontramos histórias de homens que foram usados por Deus para marcar época. Noé, Abraão, Ezequias, Esdras, Neemias e muitos outros. Esses são exemplos de homens que nos inspiram e nos ensinam com suas vidas muitas riquezas sobre relacionamento e intimidade com Deus.
 
@@ -98,3 +90,11 @@ Há um caminho a ser preparado na sua faculdade. Há um caminho a ser preparado 
 Nos próximos textos, continuaremos estudando sobre o ministério de João Batista, aprendendo princípios universais que precisam ser lembrados e devem estar presentes ainda hoje no serviço a Deus. 
 
 Por: **Filipe Merker**
+
+------
+
+Este texto é parte de uma série de estudos sobre João Batista
+
+1. [Estudo 1 → Preparando o Caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
+2. [Estudo 2 → Sua preparação no deserto](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
+3. [Estudo 3 → Sua centralidade em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)

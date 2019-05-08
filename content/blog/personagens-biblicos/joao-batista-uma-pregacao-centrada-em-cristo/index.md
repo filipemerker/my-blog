@@ -1,5 +1,5 @@
 ---
-title: João Batista - Uma pregação centrada em Cristo
+title: Quem foi João Batista? Estudo 3
 date: "2019-04-16T12:40:32.169Z"
 description: Qual o objetivo do ministério da Palavra? Revelar a Cristo. Podemos ver esse princípio ao examinarmos o minstério de João Batista.
 
@@ -11,19 +11,11 @@ read: 7 minutos
 
 ![Homem caminhando no deserto](./oasis.jpg)
 
+##Centralidade em Cristo
+
 >  Houve um homem enviado por Deus cujo nome era João. Este veio como testemunha **para que testificasse a respeito da luz**, a fim de todos virem a crer por intermédio dele. Ele não era a luz, mas veio para que testificasse da luz, a saber, a verdadeira luz, que, vinda ao mundo, ilumina a todo homem.
 >
 >  João 1:6-9
-
-------
-
-Este texto é parte de uma série sobre João Batista
-
-1. [João Batista - Preparando o caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
-2. [João Batista - Conhecendo a Deus nos desertos](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
-3. [João Batista - Uma pregação centrada em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
-
-------
 
 Vimos que o ministério de João Batista era um ministério de preparação: ele foi chamado para preparar o caminho do Senhor. Entretanto, antes de iniciar seu ministério, o próprio João precisava ser preparado. Onde foi que Deus preparou o caráter de João? Em meio aos desertos. Um período que podemos chamar de "os anos escondidos" da sua vida.
 
@@ -128,3 +120,12 @@ Se Deus realmente tocar o nosso coração e nos levar a um amor profundo, nossa 
 Que Deus desperte o nosso coração para um testemunho como esse!
 
 Por: **Filipe Merker**
+
+------
+
+Este texto é parte de uma série de estudos sobre João Batista
+
+1. [Estudo 1 → Preparando o Caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
+2. [Estudo 2 → Sua preparação no deserto](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
+3. [Estudo 3 → Sua centralidade em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
+

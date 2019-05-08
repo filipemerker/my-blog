@@ -1,5 +1,5 @@
 ---
-title: João Batista - Conhecendo a Deus nos desertos
+title: Quem foi João Batista? Estudo 2
 date: "2019-04-08T12:40:32.169Z"
 description: O que significa passar por um deserto e o que Deus tem para nos ensinar nesse lugar?
 
@@ -11,21 +11,13 @@ read: 7 minutos
 
 ![Homem caminhando no deserto](./wilderness.jpg)
 
+##A importância dos desertos
+
 >  apareceu João Batista **no deserto**, pregando batismo de arrependimento para remissão de pecados. Saíam a ter com ele toda a província da Judéia e todos os habitantes de Jerusalém; e, confessando os seus pecados, eram batizados por ele no rio Jordão. *(Marcos 1:4)*
 >
 >  passou Jesus a dizer ao povo a respeito de João: **Que saístes a ver no deserto**? *(Mateus 11:7)*
 >
 >  **O deserto é uma necessidade**. Ele é parte do caminho estabelecido por Deus para entrarmos na terra prometida. *(Stephen Kaung)*
-
----
-
-Este texto é parte de uma série sobre João Batista
-
-1. [João Batista - Preparando o caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
-2. [João Batista - Conhecendo a Deus nos desertos](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
-3. [João Batista - Uma pregação centrada em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
-
----
 
 Vimos no último texto que João Batista era uma voz no deserto. Entretanto, quando estudamos a sua vida, percebemos que o deserto é  muito mais do que apenas uma informação da geografia. O deserto é um princípio espiritual que Deus usa para trabalhar a vida de um servo. Quando um homem ou uma mulher estão dispostos a serem usados pelo Senhor, podemos ter certeza que será um caminho em meio a desertos.
 
@@ -132,3 +124,12 @@ Esse é um chamado para os nossos dias! Que como povo de Deus, possamos aprender
 Esse é o único caminho para aqueles de nós que desejam um verdadeiro ministério. Mais do que isso: esse é o único caminho para crescermos diante do Senhor.
 
 Por: **Filipe Merker**
+
+------
+
+Este texto é parte de uma série de estudos sobre João Batista
+
+1. [Estudo 1 → Preparando o Caminho do Senhor](/personagens-biblicos/joao-batista-preparando-o-caminho-do-senhor/)
+2. [Estudo 2 → Sua preparação no deserto](/personagens-biblicos/joao-batista-conhecendo-a-deus-nos-desertos/)
+3. [Estudo 3 → Sua centralidade em Cristo](/personagens-biblicos/joao-batista-uma-pregacao-centrada-em-cristo/)
+
