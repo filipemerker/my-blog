@@ -1,6 +1,6 @@
 ---
-title: Como ouvir o falar de Deus?
-description: Muitos se perguntam como ouvir a voz de Deus. Veja aqui princípios para ter um relacionamento com Deus.
+title: Como ouvir a voz de Deus?
+description: Muitos se perguntam como ouvir a voz de Deus. Veja aqui princípios bíblicos sobre esse assunto.
 date: "2019-03-15T22:12:03.284Z"
 
 page: post

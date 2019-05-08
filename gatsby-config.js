@@ -2,13 +2,25 @@ module.exports = {
   siteMetadata: {
     title: `Examinando as Escrituras`,
     author: `Filipe Merker`,
-    description: `O melhor lugar para encontrar conteúdo relacionado a estudos bíblicos, devocionais e livros cristãos de qualidade.`,
+    description: `O lugar certo para encontrar estudos bíblicos aprofundados, devocionais e bons livros cristãos.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `filipemerker`,
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [{
+          resolve: `gatsby-remark-external-links`,
+          options: {
+            target: `_blank`,
+            rel: `nofollow`
+          }
+        }]
+      }
+    },
     {
       resolve: `gatsby-plugin-styled-components`
     },
