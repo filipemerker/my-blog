@@ -37,18 +37,15 @@ class BlogIndex extends React.Component {
           Seja bem vindo e bons estudos!
         </Description>
         
-        <SectionTitle style={{ marginTop: 30 }}>Textos recentes:</SectionTitle>
+        <SectionSubTitle style={{ marginTop: 30 }}>Textos recentes:</SectionSubTitle>
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const { title, read } = node.frontmatter
+
           return (
             <Card key={node.fields.slug}>
               <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
                 <Title>{title}</Title>
-                <Excerpt
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
+                <Info>{`Leitura de ${read || `5 minutos`}`}</Info>
               </StyledLink>
             </Card>
           )
@@ -62,7 +59,25 @@ const Card = styled.article`
   padding: 10px 0px;
 `
 
-const SectionTitle = styled.span`
+const Info = styled.span`
+  text-align: left;
+  color: #a5a5a5;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 100;
+`
+
+const SectionTitle = styled.h1`
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+`
+
+const SectionSubTitle = styled.span`
   font-size: 1.5rem;
   font-weight: 500;
   display: inline-block;
@@ -73,17 +88,15 @@ const Description = styled.p`
   width: 100%;
 `
 
-const Title = styled.h2`
+const Title = styled.span`
   margin-top: ${rhythm(1 / 4)};
   margin-bottom: 0;
+  padding-bottom: 0;
   font-size: 1rem;
   border: none;
-`
-
-const Excerpt = styled.p`
-  line-height: 1.3rem;
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+  display: block;
 `
 
 const StyledLink = styled(Link)`
@@ -118,7 +131,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
+            read
           }
         }
       }

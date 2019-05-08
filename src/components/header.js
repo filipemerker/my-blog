@@ -27,7 +27,7 @@ function Header(props) {
           color: `#fff`,
           textAlign: `center`,
           padding: `5px 10px`,
-          marginTop: `-25px`
+          marginTop: `-35px`
         }}
       >
         <PrimaryLogo />
@@ -151,11 +151,14 @@ const NavLink = styled(Link)`
   `}
 `
 
-const PrimaryHeader = styled.h1`
-  margin-bottom: 5px;
+const PrimaryHeader = styled.span`
+  margin-bottom: 12px;
   margin-top: 0;
   color: #efefef;
   font-weight: 700;
+  font-size: 2.85rem;
+  line-height: 3.2rem;
+  display: block;
 `
 
 const PrimaryLogo = styled.div`
