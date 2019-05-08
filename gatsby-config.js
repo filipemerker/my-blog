@@ -10,18 +10,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [{
-          resolve: `gatsby-remark-external-links`,
-          options: {
-            target: `_blank`,
-            rel: `nofollow`
-          }
-        }]
-      }
-    },
-    {
       resolve: `gatsby-plugin-styled-components`
     },
     {
@@ -45,6 +33,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-external-links`,
+            options: {
+              target: `_blank`,
+              rel: `nofollow`
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
