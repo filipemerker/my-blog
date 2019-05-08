@@ -6,6 +6,7 @@ description: O casamento foi instituído por Deus para ser um ambiente onde deve
 page: post
 category: estudos-biblicos
 tags: ['casamento', 'andar com deus']
+read: 7 minutos
 ---
 
 ![Casal na beira da praia ao por-do-sol](./couple.jpg)

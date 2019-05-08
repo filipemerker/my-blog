@@ -6,6 +6,7 @@ description: Qual o objetivo do ministério da Palavra? Revelar a Cristo. Podemo
 page: post
 category: personagens-biblicos
 tags: ['centralidade', 'joão batista', 'ministerio', 'cristo']
+read: 7 minutos
 ---
 
 ![Homem caminhando no deserto](./oasis.jpg)

@@ -6,6 +6,7 @@ description: Qual a vontade de Deus para a nossa vida? Que demos sempre graças,
 page: post
 category: estudos-biblicos
 tags: ['gratidao', 'crescimento']
+read: 6 minutos
 ---
 
 ![Homem no topo de uma montanha](./thankful-man.jpg)

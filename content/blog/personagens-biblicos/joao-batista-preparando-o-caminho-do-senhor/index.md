@@ -6,6 +6,7 @@ description: Quem foi João Batista e o que podemos aprender com o seu ministér
 page: post
 category: personagens-biblicos
 tags: ['cristocentrismo', 'joão batista', 'ministerio']
+read: 6 minutos
 ---
 
 ![Homem caminhando no deserto](./desert.jpg)

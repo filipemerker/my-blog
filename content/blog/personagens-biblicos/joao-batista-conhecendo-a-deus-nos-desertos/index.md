@@ -6,6 +6,7 @@ description: O que significa passar por um deserto e o que Deus tem para nos ens
 page: post
 category: personagens-biblicos
 tags: ['desertos', 'joão batista', 'ministerio', 'crescimento']
+read: 7 minutos
 ---
 
 ![Homem caminhando no deserto](./wilderness.jpg)

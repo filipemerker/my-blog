@@ -6,6 +6,7 @@ date: "2019-05-01T22:12:03.284Z"
 page: post
 category: estudos-biblicos
 tags: ['santidade', 'oracao', 'buscar a deus']
+read: 7 minutos
 ---
 
 ![Homem em um uma noite de céu estrelado](./man-at-night.jpg)

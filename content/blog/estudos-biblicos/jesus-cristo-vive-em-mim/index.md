@@ -6,6 +6,7 @@ description: O que significa que Cristo vive em mim? Qual o impacto que essa ver
 page: post
 category: estudos-biblicos
 tags: ['cristo', 'galatas', 'santidade']
+read: 5 minutos
 ---
 
 ![Cruz em uma montanha](./cross-mountain.jpg)

@@ -32,7 +32,8 @@ class BlogPostTemplate extends React.Component {
           title={frontmatter.title}
           description={frontmatter.description || excerpt}
         />
-        <h1>{frontmatter.title}</h1>
+        <Title>{frontmatter.title}</Title>
+        <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <hr
           style={{
@@ -119,6 +120,20 @@ const CTA = styled.p`
   }
 `
 
+const Info = styled.span`
+  margin: 0px 0px 10px 0px;
+  text-align: left;
+  color: #a5a5a5;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+`
+
+
+const Title = styled.h1`
+  margin-bottom: 7px;
+`
+
 const Share = styled.section`
   display: flex;
   align-self: stretch;
@@ -157,6 +172,7 @@ export const pageQuery = graphql`
         title
         description
         category
+        read
       }
     }
   }

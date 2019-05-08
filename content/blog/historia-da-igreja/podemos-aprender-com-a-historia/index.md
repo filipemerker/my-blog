@@ -5,6 +5,7 @@ date: "2019-03-20T22:40:32.169Z"
 
 page: post
 category: historia-da-igreja
+read: 4 minutos
 ---
 
 ![Caminho antigo ao lado de um castelo](./old-path.jpg)

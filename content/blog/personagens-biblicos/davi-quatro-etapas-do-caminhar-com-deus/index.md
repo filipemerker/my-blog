@@ -6,6 +6,7 @@ description: Quando olhamos para a vida de Davi, vemos quatro etapas em sua vida
 page: post
 category: personagens-biblicos
 tags: ['davi', 'ministerio', 'crescimento']
+read: 5 minutos
 
 ---
 
