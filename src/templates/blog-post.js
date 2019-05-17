@@ -123,7 +123,7 @@ const CTA = styled.p`
 const Info = styled.span`
   margin: 0px 0px 10px 0px;
   text-align: left;
-  color: #a5a5a5;
+  color: #8a8a8a;
   display: inline-block;
   font-size: 14px;
   font-weight: 100;

@@ -11,15 +11,15 @@ read: 8 minutos
 
 ![Estante com muitos livros](./library.jpg)
 
-Você já se perguntou se existem outros documentos históricos do mesmo período do Novo Testamento, que falem sobre os mesmo eventos? Neste texto, vamos analizar evidências que mostram que a história e a Bíblia estão totalmente de acordo.
+Já que a Bíblia nos conta histórias tão maravilhosas, você já se perguntou se existem outros documentos históricos do mesmo período do Novo Testamento, que falem sobre Jesus?
 
-Sabemos que a Bíblia é a Palavra de Deus. Jesus disse ao Pai: "a tua palavra é a verdade". Não precisamos de provas para nos mostrar que a Bíblia é verdadeira. Ela é a própria verdade. Não estamos interessados em investigar se a história confirma a Bíblia, mas queremos mostrar que a história **concorda com a Bíblia**.
+A resposta é **sim** e nesse estudo vamos conhecer alguns destes documentos.
 
-Antes de começarmos, precisamos lembrar que, embora Jesus fosse seguido por multidões em grande parte do seu ministério, naquele período da história, isso não era difícil de acontecer. Em Atos 5:36 e 37, Gamaliel, uma autoridade Judaica, menciona alguns casos de homens que também foram acompanhados de multidões.
+No seu livro chamado: [Merece confiança o novo testamento?](https://vidanova.com.br/300-merece-confianca-novo-testamento.html) F. F. Bruce deixa claro que não há dúvidas de que o Novo Testamento é o documento mais confiável no mundo, historicamente falando.
 
-Em seus dias, Jesus foi desprezado, perseguido e difamado pelas autoridades. Não esperamos que a história o trate como quem ele realmente foi. Tanto para os historiadores, quanto para Gamaliel, ele era apenas "mais um homem".
+Mas mesmo o Novo Testamento sendo tão confiável como um documento histórico, não precisamos de evidências para crer. Simplesmente confiamos nele porque cremos que é a Palavra de Deus, inerrante e infalível.
 
-Mas, pela mão soberana de Deus, existem muitas referências de homens que, sem saber, nos contam como Jesus impactou as autoridades do mundo na sua época.
+Nesse estudo, portanto, não olharemos para a história procurando validar o que está escrito na Bíblia, mas apenas para mostrar evidências de que a história e a Bíblia estão em **perfeita harmonia**.
 
 ##Evidência em Cornélio Tácito
 
@@ -31,7 +31,7 @@ Relatando a decisão do imperador Nero, de culpar os cristãos pelo fogo que des
 
 O que podemos aprender aqui? Em primeiro lugar, vemos que Tácito era contrário ao cristianismo. Ele reconhece que os cristãos eram "odiados" por adorarem a um homem chamado Cristo, que sofreu a "penalidade extrema", referindo-se à sua morte na cruz.
 
-Ele também diz que uma "superstição" se desenvolveu na Judéia. Que superstição é essa? Possivelmente crença de que as pessoas agora se consideravam "crucificadas com Cristo", mortas e ressuscitadas com Ele. Para os Romanos isso era apenas uma superstição, mas para a população, por algum motivo, parecia ser uma boa notícia.
+Ele também diz que uma "superstição" se desenvolveu na Judéia. Que superstição é essa? Possivelmente a crença de que as pessoas agora se consideravam "crucificadas com Cristo", mortas e ressuscitadas com Ele. Para os Romanos isso era apenas uma superstição, mas para a população, por algum motivo, parecia ser uma boa notícia.
 
 O evangelho havia chegado até Roma. Paulo diz em Romanos:
 
@@ -101,7 +101,7 @@ Em uma das porçoões mais antigas do Talmude, está escrito:
 
 Essa é um passagem interessante. Vemos que ela é extremamente hostil, mas precisamos lembrar que a sua fonte é um documento escrito por autoridades religiosas entre os judeus, o mesmo grupo que perseguiu a Jesus nos evangelhos, mentindo para o condenar.
 
-O nome Yeshu, ou Yeshua, significa Jesus em hebraico e o texto diz que ele "praticou feitiçaria e seduziu Israel à apostasia". Interessante notarmos que ambas as acusações são as mesmas acusações relatadas nos evangelhos como sendo feitas pelas autoridades religiosas.
+O nome Yeshu, ou Yeshua, significa Jesus em hebraico e o texto diz que ele "praticou feitiçaria e seduziu Israel à apostasia". Interessante notarmos que ambas as acusações são as mesmas relatadas nos evangelhos como sendo feitas pelas autoridades religiosas.
 
 > Mas os fariseus, ouvindo isto, murmuravam: Este não expele demônios senão pelo poder de Belzebu, maioral dos demônios. (*Mateus 12:24*)
 >
@@ -117,7 +117,7 @@ Esse texto, portanto, mostra que as autoridades religiosas da época, dentro e f
 
 Mesmo que Luciano esteja fazendo uma sátira dos cristãos, sem saber, estava fornecendo um relato precioso sobre o próprio Cristo.
 
-O que era tão revoltante nos cristão? O fato de que eles se consideravam todos os irmãos desde sua conversão e negavam os deuses da grécia.
+O que era tão revoltante nos cristãos para ele? O fato de que eles se consideravam todos os irmãos desde sua conversão e negavam os deuses da grécia.
 
 Como podem? Abandonar tudo que os deuses gregos tinham a oferecer, para adorar a um "sábio crucificado"? Isso era inconcebível para Luciano.
 

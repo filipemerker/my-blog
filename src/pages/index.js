@@ -61,7 +61,7 @@ const Card = styled.article`
 
 const Info = styled.span`
   text-align: left;
-  color: #a5a5a5;
+  color: #8c8c8c;
   display: block;
   width: 100%;
   font-size: 13px;
