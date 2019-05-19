@@ -76,4 +76,5 @@ O dinheiro não é bom nem mal, o problema é quem tem o dinheiro. "O amor ao di
 
 A única forma de fugirmos do senhorio do dinheiro não é darmos 10% do que temos, mas 100%. Ele quer ser o dono de todas as nossas posses. Entretanto, quando ofertamos ao Senhor, não estamos dando para ele, mas estamos devolvendo aquilo que Ele nos deu.
 
-Existem princípio sobre isso. Quando Deus nos dá o que é dele, ele pede 10%, esse é o primeiro princípio. O 
+Existem princípio sobre isso. Quando Deus nos dá o que é dele, ele pede 10%, esse é o primeiro princípio. [...]
+
