@@ -1,6 +1,6 @@
 ---
-title: Como ouvir a voz de Deus?
-description: Muitos se perguntam como ouvir a voz de Deus. Veja aqui princípios bíblicos sobre esse assunto.
+title: Levantando mãos santas
+description: Todos concordam que .
 date: "2019-03-15T22:12:03.284Z"
 
 page: post
@@ -10,16 +10,9 @@ tags: ['galatas', 'agostinho', 'santidade']
 
 ![Homem em um uma noite de céu estrelado](./man-at-night.jpg)
 
-> ...já não sou eu quem vive, mas **Cristo vive em mim**; e esse viver que, agora, tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.
+> Quero, portanto, que os varões orem em todo lugar, **levantando mãos santas**, sem ira e sem animosidade. (*1 Timóteo 2:8*)
 >
-> Gálatas 2:20
+> Bendizei ao SENHOR, vós todos, servos do SENHOR, que assistis na Casa do SENHOR, nas horas da noite; **erguei as mãos** para o santuário e bendizei ao SENHOR. (*Salmos 134:1-2*)
 
-Penso que este é um dos textos mais bonitos de todo o Novo Testamento. Aqui, o Espírito Santo nos dá esperança de que, embora ainda tenhamos uma vida para viver nessa carne, temos a Jesus. Ele nos amou, se entregou por nós e vive em nós!
+## O que significa erguer as mãos na Bíblia?
 
-Mas para que possamos extrair uma riqueza maior, vamos meditar mais profundamente no significado desse texto.
-
-## O que significa que Cristo vive em mim?
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio nihil tempora, itaque explicabo qui iste quasi delectus quam perferendis! Voluptates molestiae exercitationem deleniti iste neque temporibus libero corrupti porro.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio nihil tempora, itaque explicabo qui iste quasi delectus quam perferendis! Voluptates molestiae exercitationem deleniti iste neque temporibus libero corrupti porro.
