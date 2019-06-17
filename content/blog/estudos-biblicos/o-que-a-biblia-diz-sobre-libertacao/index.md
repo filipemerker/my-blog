@@ -6,9 +6,10 @@ date: "2019-03-15T22:12:03.284Z"
 page: post
 category: estudos-biblicos
 tags: ['libertação', 'bíblia', 'palavra de Deus']
+read: 6 minutos
 ---
 
-![Pássaro voando no céu](./freedom.jpg)
+![Homem com mochila olhando o horizonte](./freedom.jpg)
 
 > Disse, pois, Jesus aos judeus que haviam crido nele: Se vós permanecerdes na minha palavra, sois verdadeiramente meus discípulos; e conhecereis a verdade, **e a verdade vos libertará**. *João 8:31-21*
 >
