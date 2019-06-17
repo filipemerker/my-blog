@@ -19,7 +19,9 @@ read: 6 minutos
 
 Sempre que falamos sobre liberdade, devemos lembrar que esse assunto é muito extenso. Podemos pensar que nossa falta de dinheiro limita nossa liberdade. Talvez alguma característica física limite nossa liberdade. Paulo chega a dizer, em 1 Coríntios, que por causa da consciência dos irmãos, ele estaria disposto a abrir mão da sua liberdade voluntariamente.
 
-Mas quando Jesus fala sobre liberdade, é sempre em um sentido de sermos livres para vivermos uma vida de acordo com a vontade de Deus. A partir dessa perspectiva, vamos descobrir que aquilo que mais nos aprisiona e limita é o pecado.
+Mas quando Jesus fala sobre liberdade, é sempre em um sentido de sermos **livres para vivermos a vontade de Deus para a nossa vida**. É essa a liberdade que você busca?
+
+Quando compreendemos isso, vamos descobrir que aquilo que mais nos aprisiona e limita nossa liberdade é o pecado.
 
 ## Diferentes necessidades de libertação
 
@@ -46,19 +48,19 @@ Os discípulos poderiam dar palavras de ordem durante horas contra aquele demôn
 
 Tomemos, por exemplo, a depressão ou ansiedade. Elas pode ter origens muito diferentes.
 
-Podem ter origem em uma enfermidade física. Muitas vezes, pessoas sofrem de ansiedade ou depresão por deficiências físicas na produção de hormônios ou absorção de vitaminas. Pessoas que enfrentam este tipo de enfermidade, podem ter muita dificuldade de viver a vontade de Deus para a vida delas.
+**Podem ter origem em uma enfermidade física**. Muitas vezes, pessoas sofrem de ansiedade ou depresão por deficiências físicas na produção de hormônios ou absorção de vitaminas. Pessoas que enfrentam este tipo de enfermidade, podem ter muita dificuldade de viver a vontade de Deus para a vida delas.
 
 Nesse caso, a libertação deve ser ministrada repreendendo a própria enfermidade, seguindo o exemplo de Jesus:
 
 > Inclinando-se ele para ela, **repreendeu a febre**, e esta a deixou; e logo se levantou, passando a servi-los. *Lucas 4:39*
 
-Entretanto, depressão e ansiedade, como outras enfermidades, podem ter sua origem em uma opressão espiritual. Frequentemente ouvimos de pessoas que, mesmo não sendo habitadas por espíritos malígnos, são influenciadas pelas trevas, e isso pode causar diferentes tipos de enfermidades e desordens que impedem uma pessoa de viver a vontade de Deus para a vida dela.
+Entretanto, depressão e ansiedade, como outras enfermidades, **podem ter sua origem em uma opressão espiritual**. Frequentemente ouvimos de pessoas que, mesmo não sendo habitadas por espíritos malígnos, são influenciadas pelas trevas, e isso pode causar diferentes tipos de enfermidades e desordens que impedem uma pessoa de viver a vontade de Deus para a vida dela.
 
 Nesse caso, a libertação deve ser ministrada repreendendo, não a enfermidade, mas o espírito causador da enfermidade, como fez Jesus:
 
 > Vendo Jesus que a multidão concorria, **repreendeu o espírito imundo**, dizendo-lhe: **Espírito mudo e surdo**, eu te ordeno: Sai deste jovem e nunca mais tornes a ele. *Marcos 9:25*
 
-Mas a depressão, ansiedade, e muitas outras prisões que nos impedem de viver a vontade de Deus para a nossa vida podem ter uma outra origem que possivelmente seja a mais comum: **a prática do pecado**. Jesus disse: todo aquele que pratica o pecado, é escravo do pecado. Essa escravidão é o fator que tem mantido um número incontável de pessoas longe da vontade do que Deus imaginou para elas, e essa pessoa pode ser você, ou alguém muito próximo.
+Mas a depressão, ansiedade, e muitas outras prisões que nos impedem de viver a vontade de Deus para a nossa vida podem ter uma outra origem que possivelmente seja a mais comum: **a prática do pecado**. Jesus disse: todo aquele que pratica o pecado, é escravo do pecado. Essa escravidão do pecado é um fator que tem mantido um número incontável de pessoas longe do que Deus imaginou para elas, e essa pessoa pode ser você, ou alguém muito próximo.
 
 Qual o caminho para a libertação nesse caso? **Conhecer a verdade**.
 
@@ -68,21 +70,25 @@ Assim como o assunto da liberdade, esse assunto da verdade também pode ser muit
 
 > Santifica-os na verdade, **a tua palavra é a verdade**. *João 17:17*
 
-De que forma a verdade pode nos libertar? Paulo explica:
+A Palavra de Deus é a verdade que liberta.
+
+E de que forma ela pode nos libertar? Paulo explica:
 
 > Porque as armas da nossa milícia não são carnais, e sim poderosas em Deus, para destruir fortalezas, anulando sofismas e toda altivez que se levante contra o conhecimento de Deus, e levando cativo todo pensamento à obediência de Cristo. *2 Coríntios 10:4-5*
 
+Quais são os atributos da Palavra de Deus que são usados para nos trazer libertação?
+
 **Ela é poderosa em Deus**. Em Romanos aprendemos que o Evangelho é o poder de Deus para a salvação, mas aqui aprendemos que ele também é o poder de Deus para libertação.
 
-**Ela destrói fortalezas**. O que é uma fortaleza? É um tipo de contrução que impede que aquilo que está dentro saia, e aquilo que está fora, entre. Em outras palavras: uma fortaleza na mente, impede a renovação da mente. Mas glória a Deus porque a palavra é poderosa para derrubar as fortalezas do medo, da insegurança, do orgulho e muitas outras.
+**Ela destrói fortalezas**. O que é uma fortaleza? É um tipo de construção que impede que aquilo que está dentro saia, e aquilo que está fora, entre. Em outras palavras: uma fortaleza na mente, impede que aconteça a renovação da mente. Mas glória a Deus porque a Palavra é poderosa para derrubar as fortalezas do medo, da insegurança, do orgulho e muitas outras prisões que temos na mente.
 
-**Ela anula sofismas**. Sofisma é um tipo de mentira complexa, bem elaborada, que mantém as pessoas presas. Todos que vem do mundo para o Reino trazem junto muitos sofismas na mente que precisam ser anulados. A mentira de que não são amados, a mentira de que dependem da sorte para que as coisas funcionem, a mentira de que precisam fazer coisas para serem aceitos por Deus. Mas louvado seja o Senhor, porque a Sua Palavra anula todas as mentiras em nossa mente!
+**Ela anula sofismas**. Sofisma é um tipo de mentira complexa, bem elaborada, que mantém as pessoas afastadas da verdade. Todos que vem do mundo para o Reino trazem junto muitos sofismas na mente que precisam ser anulados. A mentira de que não são amados, a mentira de que dependem da sorte para que as coisas funcionem, a mentira de que precisam fazer coisas para serem aceitos por Deus. Mas louvado seja o Senhor, porque a Sua Palavra anula todas as mentiras em nossa mente! Ela é a verdade que liberta! Nela encontramos a liberdade!
 
 **Ela anula toda a altivez**. Altivo é alguém que vê as coisas do alto para baixo, inclusive a Palavra de Deus. Pessoas que gostam de um versículo, porque concordam com ele, e rejeitam outro versículo, porque discordam dele, são pessoas que se colocam acima da Palavra. Qual a consequência? Sofismas e fortalezas vão se firmar em suas mentes. Mas quando decidimos nos colocar abaixo da Palavra, ela anula nossa altivez e nos livra das mentiras e fortalezas!
 
-**Ela leva todo pensamento cativo à obediência de Cristo**. Hoje vivemos em um mundo de pensamento acelerado. Não podemos nos dar o direito de parar. Tudo deve ser rápido e instantâneo. Se nos deixarmos levar pelo ritmo do mundo e das redes sociais, qual a consequência disso? Nossos pensamentos vão ficar desordenados.
+**Ela leva todo pensamento cativo à obediência de Cristo**. Hoje vivemos em um mundo de pensamentos acelerados. Não podemos nos dar o direito de parar. Tudo deve ser rápido e instantâneo. Se nos deixarmos levar pelo ritmo do mundo, dos aplicativos e das redes sociais, qual a consequência disso? Nossos pensamentos vão ficar desordenados.
 
-Muitas pessoas pessoas hoje sofrem por hábitos causadas por pensamentos descontrolados: depressão, ansiedade, distúrbios de imagem, gula, sensualidade e muitos outros. Podemos e devemos orar por pessoas que passam por dificuldades como essas. Mas como ministrar a verdadeira libertação? Devemos ministrar mudança de mente através da Palavra.
+Muitas pessoas pessoas hoje sofrem por hábitos causadas por pensamentos descontrolados: depressão, ansiedade, distúrbios de imagem, gula, sensualidade e muitos outros. Podemos e devemos orar por pessoas que passam por dificuldades como essas. Mas como ministrar a verdadeira libertação? **Devemos ministrar mudança de mente através da Palavra**.
 
 A verdadeira mudança de hábito, só pode acontecer se for fruto de uma mudança de mente.
 

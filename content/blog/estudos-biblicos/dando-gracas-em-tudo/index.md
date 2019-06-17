@@ -1,6 +1,6 @@
 ---
 title: Dando graças em tudo
-date: "2019-04-21T12:40:32.169Z"
+date: "2019-05-16T12:40:32.169Z"
 description: Qual a vontade de Deus para a nossa vida? Que demos sempre graças, em tudo.
 
 page: post
