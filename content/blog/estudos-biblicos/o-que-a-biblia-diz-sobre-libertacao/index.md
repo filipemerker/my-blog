@@ -1,7 +1,7 @@
 ---
 title: O que a Bíblia diz sobre libertação?
 description: Qual o segredo de Deus para a verdadeira libertação? O que diz a Bíblia sobre isso? Descubra aqui.
-date: "2019-03-15T22:12:03.284Z"
+date: "2019-05-16T23:12:03.284Z"
 
 page: post
 category: estudos-biblicos
