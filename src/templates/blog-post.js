@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React from "react"
+import React, { Fragment } from "react"
 import styled from 'styled-components'
 import { Link, graphql } from "gatsby"
 import {
@@ -23,91 +23,130 @@ class BlogPostTemplate extends React.Component {
     const { frontmatter, excerpt, html } = this.props.data.markdownRemark
     const { previous, next } = this.props.pageContext
     const siteTitle = this.props.data.site.siteMetadata.title
-
-    console.log(this.props)
+    const posts = this.props.data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle} category={frontmatter.category}>
-        <SEO
-          title={frontmatter.title}
-          description={frontmatter.description || excerpt}
-        />
-        <Title>{frontmatter.title}</Title>
-        <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <hr
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        />
-          <CTA>Esse post foi importante para você? <strong>Clique abaixo</strong> e compartilhe para edificar outros.
-          <br /><br /><strong>Clique no sininho</strong> para ser avisado quando publicarmos algo novo! <br /><br /><em>(Se você chegou aqui pelo Instagram, talvez precise abrir o site diretamente no navegador do seu celular para ver o sininho.)</em></CTA>
-        <hr
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        />
+      <>
+        <Layout isPost location={this.props.location} title={siteTitle} category={frontmatter.category}>
+          <Page>
+            <Content>
+              <SEO
+                title={frontmatter.title}
+                description={frontmatter.description || excerpt}
+              />
+              <Title>{frontmatter.title}</Title>
+              <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
+              <div dangerouslySetInnerHTML={{ __html: html }} />
+              <hr
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: rhythm(1),
+                }}
+              />
+                <CTA>Esse post foi importante para você? <strong>Clique abaixo</strong> e compartilhe para edificar outros.
+                <br /><br /><strong>Clique no sininho</strong> para ser avisado quando publicarmos algo novo! <br /><br /><em>(Se você chegou aqui pelo Instagram, talvez precise abrir o site diretamente no navegador do seu celular para ver o sininho.)</em></CTA>
+              <hr
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: rhythm(1),
+                }}
+              />
 
-        <Share>
-          <FacebookShareButton url={this.props.location.href}>
-            <FacebookIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
-          </FacebookShareButton>
-          <TwitterShareButton url={this.props.location.href}>
-            <TwitterIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
-          </TwitterShareButton>
-          <WhatsappShareButton url={this.props.location.href}>
-            <WhatsappIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
-          </WhatsappShareButton>
-          <EmailShareButton url={this.props.location.href}>
-            <EmailIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
-          </EmailShareButton>
-        </Share>
-        <hr
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        />
+              <Share>
+                <FacebookShareButton url={this.props.location.href}>
+                  <FacebookIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                </FacebookShareButton>
+                <TwitterShareButton url={this.props.location.href}>
+                  <TwitterIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                </TwitterShareButton>
+                <WhatsappShareButton url={this.props.location.href}>
+                  <WhatsappIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                </WhatsappShareButton>
+                <EmailShareButton url={this.props.location.href}>
+                  <EmailIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                </EmailShareButton>
+              </Share>
+              <hr
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: rhythm(1),
+                }}
+              />
 
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-            margin: 0
-          }}
-        >
-          <li>
-            {previous && (
-              <StyledLink to={previous.fields.slug} rel="prev">
-                ← {
-                    previous.frontmatter.title.length > 35
-                      ? `${previous.frontmatter.title.slice(0,35)}...`
-                      : previous.frontmatter.title
-                  }
-              </StyledLink>
-            )}
-          </li>
-          <li>
-            {next && (
-              <StyledLink to={next.fields.slug} rel="next">
-                {
-                  next.frontmatter.title.length > 35
-                    ? `${next.frontmatter.title.slice(0,35)}...`
-                    : next.frontmatter.title
-                } →
-              </StyledLink>
-            )}
-          </li>
-        </ul>
-      </Layout>
+              <ul
+                style={{
+                  display: `flex`,
+                  flexWrap: `wrap`,
+                  justifyContent: `space-between`,
+                  listStyle: `none`,
+                  padding: 0,
+                  margin: 0
+                }}
+              >
+                <li>
+                  {previous && (
+                    <StyledLink to={previous.fields.slug} rel="prev">
+                      ← {
+                          previous.frontmatter.title.length > 35
+                            ? `${previous.frontmatter.title.slice(0,35)}...`
+                            : previous.frontmatter.title
+                        }
+                    </StyledLink>
+                  )}
+                </li>
+                <li>
+                  {next && (
+                    <StyledLink to={next.fields.slug} rel="next">
+                      {
+                        next.frontmatter.title.length > 35
+                          ? `${next.frontmatter.title.slice(0,35)}...`
+                          : next.frontmatter.title
+                      } →
+                    </StyledLink>
+                  )}
+                </li>
+              </ul>
+            </Content>
+            <Aside>
+              <SectionTitle>Outros Posts</SectionTitle>
+              {
+                posts.map(post => {
+                  const { title } = post.node.frontmatter
+                  const { slug } = post.node.fields
+
+                  return (
+                    <SidebarItem key={title}>
+                      <StyledLink style={{ boxShadow: `none` }} to={slug}>
+                        {title}
+                      </StyledLink>
+                    </SidebarItem>
+                  )
+                })
+              }
+            </Aside>
+          </Page>
+        </Layout>
+      </>
     )
   }
 }
+
+const SectionTitle = styled.span`
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 20px;
+`
+
+const SidebarItem = styled.li`
+  list-style: none;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 10px;
+  padding-bottom: 13px;
+  font-size: 14px;
+  line-height: 1rem;
+  width: 210px;
+`
 
 const CTA = styled.p`
   text-align: center;
@@ -144,6 +183,34 @@ const Share = styled.section`
   margin: 0 auto;
 `
 
+const Aside = styled.aside`
+  padding: 10px 0px 10PX 30px;
+  border-radius: 10px;
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
+`
+
+const Content = styled.section`
+  img {
+    width: 100%;
+  }
+  .gatsby-resp-image-wrapper {
+    max-width: 100% !important;
+  }
+`
+
+const Page = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+`
+
 const StyledLink = styled(Link)`
   color: #7f9e8e;
   transition: all .15s linear;
@@ -157,7 +224,7 @@ const StyledLink = styled(Link)`
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug($category: String, $slug: String!) {
     site {
       siteMetadata {
         title
@@ -173,6 +240,27 @@ export const pageQuery = graphql`
         description
         category
         read
+      }
+    }
+    allMarkdownRemark(
+      sort: {fields: [frontmatter___title], order: ASC}
+      limit: 10
+      filter: {frontmatter: {
+        category: { eq: $category }
+        page: { eq: "post" }
+      }}
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+          }
+        }
       }
     }
   }
