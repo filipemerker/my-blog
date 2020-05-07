@@ -9,8 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import categoriesDictionary from "../utils/categories"
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, category }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +27,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const headerSuffix = category ? categoriesDictionary[category] : site.siteMetadata.title
 
   return (
     <Helmet
@@ -33,7 +35,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${headerSuffix}`}
       meta={[
         {
           name: `description`,

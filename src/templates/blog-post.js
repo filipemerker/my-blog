@@ -33,6 +33,7 @@ class BlogPostTemplate extends React.Component {
               <SEO
                 title={frontmatter.title}
                 description={frontmatter.description || excerpt}
+                category={frontmatter.category}
               />
               <Title>{frontmatter.title}</Title>
               <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
