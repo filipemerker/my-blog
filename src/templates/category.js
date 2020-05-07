@@ -1,11 +1,11 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import categories from "../utils/categories"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
+import categories from '../utils/categories'
 
 class Category extends React.Component {
   render() {
@@ -15,7 +15,11 @@ class Category extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle} category={pageContext.category}>
+      <Layout
+        location={this.props.location}
+        title={siteTitle}
+        category={pageContext.category}
+      >
         <SEO
           title={categories[pageContext.category]}
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -28,7 +32,6 @@ class Category extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-
 
         <SectionTitle>Artigos:</SectionTitle>
         {posts.map(({ node }) => {
@@ -76,7 +79,7 @@ const Excerpt = styled.p`
 
 const StyledLink = styled(Link)`
   color: #7f9e8e;
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 
   &:hover {
     text-decoration: none;
@@ -104,11 +107,10 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: {fields: [frontmatter___title], order: ASC}
-      filter: {frontmatter: {
-        category: { eq: $category }
-        page: { eq: "post" }
-      }}
+      sort: { fields: [frontmatter___title], order: ASC }
+      filter: {
+        frontmatter: { category: { eq: $category }, page: { eq: "post" } }
+      }
     ) {
       edges {
         node {

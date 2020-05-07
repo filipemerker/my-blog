@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import React from 'react'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import styled from 'styled-components'
-import Image from "gatsby-image"
+import Image from 'gatsby-image'
 
-import { scale } from "../utils/typography"
-import categoriesDictionary from "../utils/categories"
+import { scale } from '../utils/typography'
+import categoriesDictionary from '../utils/categories'
 
 function Header(props) {
   const { location, title, category } = props
@@ -27,11 +27,11 @@ function Header(props) {
           color: `#fff`,
           textAlign: `center`,
           padding: `5px 10px`,
-          marginTop: `-35px`
+          marginTop: `-35px`,
         }}
       >
         <PrimaryLogo />
-        <PrimaryHeader style={{...scale(1.5)}}>
+        <PrimaryHeader style={{ ...scale(1.5) }}>
           <Link
             style={{
               boxShadow: `none`,
@@ -43,7 +43,9 @@ function Header(props) {
             {title}
           </Link>
         </PrimaryHeader>
-        <Headline>Uma busca pelas insondáveis riquezas de <strong>Cristo</strong>.</Headline>
+        <Headline>
+          Uma busca pelas insondáveis riquezas de <strong>Cristo</strong>.
+        </Headline>
       </div>
     )
   } else {
@@ -54,7 +56,7 @@ function Header(props) {
             boxShadow: `none`,
             textDecoration: `none`,
             color: `inherit`,
-            position: 'relative'
+            position: 'relative',
           }}
           to={`/`}
         >
@@ -68,7 +70,7 @@ function Header(props) {
             color: `inherit`,
             textTransform: `uppercase`,
             fontSize: 20,
-            fontWeight: 300
+            fontWeight: 300,
           }}
           to={`/${category}`}
         >
@@ -91,10 +93,10 @@ function Header(props) {
                 marginBottom: 0,
                 borderRadius: 0,
                 width: `100%`,
-                opacity: .35
+                opacity: 0.35,
               }}
               imgStyle={{
-                borderRadius: 0
+                borderRadius: 0,
               }}
             />
           )}
@@ -103,7 +105,7 @@ function Header(props) {
             {data.allMarkdownRemark.edges.map(({ node: { frontmatter } }) => (
               <NavLink
                 key={`nav-${frontmatter.category}`}
-                active={(frontmatter.category === category) ? 1 : 0}
+                active={frontmatter.category === category ? 1 : 0}
                 to={`/${frontmatter.category}`}
               >
                 {categoriesDictionary[frontmatter.category]}
@@ -116,19 +118,18 @@ function Header(props) {
   )
 }
 
-
 const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${props => props.home ? `#000` : `#b3c7c7`};
-  margin-bottom: ${props => props.home ? `30px` : `0px`};
+  background: ${props => (props.home ? `#000` : `#b3c7c7`)};
+  margin-bottom: ${props => (props.home ? `30px` : `0px`)};
   min-height: 70px;
   flex-direction: column;
 `
 
 const Nav = styled.nav`
-  background: #F8F8F8;
+  background: #f8f8f8;
   width: 100%;
   border-bottom: 1px solid #dadada;
   padding: 15px 0px;
@@ -138,14 +139,16 @@ const Nav = styled.nav`
 const NavLink = styled(Link)`
   margin: 0px 10px;
   color: #7f9e8e;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 
   &:hover {
     text-decoration: none;
     color: #444;
   }
 
-  ${props => props.active && `
+  ${props =>
+    props.active &&
+    `
     color:  #444;
     cursor: default;
   `}
@@ -214,7 +217,7 @@ const headerQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(filter: {frontmatter: {page: { eq: "category" }}}) {
+    allMarkdownRemark(filter: { frontmatter: { page: { eq: "category" } } }) {
       edges {
         node {
           frontmatter {

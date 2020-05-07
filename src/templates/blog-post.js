@@ -1,22 +1,21 @@
 /* eslint-disable */
-import React, { Fragment } from "react"
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
-import { Link, graphql } from "gatsby"
+import { Link, graphql } from 'gatsby'
 import {
   FacebookShareButton,
   TwitterShareButton,
   WhatsappShareButton,
   EmailShareButton,
-
   FacebookIcon,
   TwitterIcon,
   WhatsappIcon,
   EmailIcon,
 } from 'react-share'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -27,7 +26,12 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <>
-        <Layout isPost location={this.props.location} title={siteTitle} category={frontmatter.category}>
+        <Layout
+          isPost
+          location={this.props.location}
+          title={siteTitle}
+          category={frontmatter.category}
+        >
           <Page>
             <Content>
               <SEO
@@ -44,8 +48,21 @@ class BlogPostTemplate extends React.Component {
                   marginBottom: rhythm(1),
                 }}
               />
-                <CTA>Esse post foi importante para você? <strong>Clique abaixo</strong> e compartilhe para edificar outros.
-                <br /><br /><strong>Clique no sininho</strong> para ser avisado quando publicarmos algo novo! <br /><br /><em>(Se você chegou aqui pelo Instagram, talvez precise abrir o site diretamente no navegador do seu celular para ver o sininho.)</em></CTA>
+              <CTA>
+                Esse post foi importante para você?{' '}
+                <strong>Clique abaixo</strong> e compartilhe para edificar
+                outros.
+                <br />
+                <br />
+                <strong>Clique no sininho</strong> para ser avisado quando
+                publicarmos algo novo! <br />
+                <br />
+                <em>
+                  (Se você chegou aqui pelo Instagram, talvez precise abrir o
+                  site diretamente no navegador do seu celular para ver o
+                  sininho.)
+                </em>
+              </CTA>
               <hr
                 style={{
                   marginTop: rhythm(1),
@@ -55,16 +72,32 @@ class BlogPostTemplate extends React.Component {
 
               <Share>
                 <FacebookShareButton url={this.props.location.href}>
-                  <FacebookIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                  <FacebookIcon
+                    iconBgStyle={{ fill: '#7f9e8e' }}
+                    size={32}
+                    round={true}
+                  />
                 </FacebookShareButton>
                 <TwitterShareButton url={this.props.location.href}>
-                  <TwitterIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                  <TwitterIcon
+                    iconBgStyle={{ fill: '#7f9e8e' }}
+                    size={32}
+                    round={true}
+                  />
                 </TwitterShareButton>
                 <WhatsappShareButton url={this.props.location.href}>
-                  <WhatsappIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                  <WhatsappIcon
+                    iconBgStyle={{ fill: '#7f9e8e' }}
+                    size={32}
+                    round={true}
+                  />
                 </WhatsappShareButton>
                 <EmailShareButton url={this.props.location.href}>
-                  <EmailIcon iconBgStyle={{ fill: '#7f9e8e'}} size={32} round={true} />
+                  <EmailIcon
+                    iconBgStyle={{ fill: '#7f9e8e' }}
+                    size={32}
+                    round={true}
+                  />
                 </EmailShareButton>
               </Share>
               <hr
@@ -81,28 +114,26 @@ class BlogPostTemplate extends React.Component {
                   justifyContent: `space-between`,
                   listStyle: `none`,
                   padding: 0,
-                  margin: 0
+                  margin: 0,
                 }}
               >
                 <li>
                   {previous && (
                     <StyledLink to={previous.fields.slug} rel="prev">
-                      ← {
-                          previous.frontmatter.title.length > 35
-                            ? `${previous.frontmatter.title.slice(0,35)}...`
-                            : previous.frontmatter.title
-                        }
+                      ←{' '}
+                      {previous.frontmatter.title.length > 35
+                        ? `${previous.frontmatter.title.slice(0, 35)}...`
+                        : previous.frontmatter.title}
                     </StyledLink>
                   )}
                 </li>
                 <li>
                   {next && (
                     <StyledLink to={next.fields.slug} rel="next">
-                      {
-                        next.frontmatter.title.length > 35
-                          ? `${next.frontmatter.title.slice(0,35)}...`
-                          : next.frontmatter.title
-                      } →
+                      {next.frontmatter.title.length > 35
+                        ? `${next.frontmatter.title.slice(0, 35)}...`
+                        : next.frontmatter.title}{' '}
+                      →
                     </StyledLink>
                   )}
                 </li>
@@ -110,20 +141,18 @@ class BlogPostTemplate extends React.Component {
             </Content>
             <Aside>
               <SectionTitle>Outros Posts</SectionTitle>
-              {
-                posts.map(post => {
-                  const { title } = post.node.frontmatter
-                  const { slug } = post.node.fields
+              {posts.map(post => {
+                const { title } = post.node.frontmatter
+                const { slug } = post.node.fields
 
-                  return (
-                    <SidebarItem key={title}>
-                      <StyledLink style={{ boxShadow: `none` }} to={slug}>
-                        {title}
-                      </StyledLink>
-                    </SidebarItem>
-                  )
-                })
-              }
+                return (
+                  <SidebarItem key={title}>
+                    <StyledLink style={{ boxShadow: `none` }} to={slug}>
+                      {title}
+                    </StyledLink>
+                  </SidebarItem>
+                )
+              })}
             </Aside>
           </Page>
         </Layout>
@@ -169,7 +198,6 @@ const Info = styled.span`
   font-weight: 100;
 `
 
-
 const Title = styled.h1`
   margin-bottom: 7px;
 `
@@ -185,7 +213,7 @@ const Share = styled.section`
 `
 
 const Aside = styled.aside`
-  padding: 10px 0px 10PX 30px;
+  padding: 10px 0px 10px 30px;
   border-radius: 10px;
   margin-top: 105px;
   display: flex;
@@ -214,7 +242,7 @@ const Page = styled.section`
 
 const StyledLink = styled(Link)`
   color: #7f9e8e;
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 
   &:hover {
     text-decoration: none;
@@ -244,12 +272,11 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: {fields: [frontmatter___title], order: ASC}
+      sort: { fields: [frontmatter___title], order: ASC }
       limit: 10
-      filter: {frontmatter: {
-        category: { eq: $category }
-        page: { eq: "post" }
-      }}
+      filter: {
+        frontmatter: { category: { eq: $category }, page: { eq: "post" } }
+      }
     ) {
       edges {
         node {

@@ -1,10 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
@@ -17,27 +17,41 @@ class BlogIndex extends React.Component {
         <SEO
           title="Todos os Posts"
           description="Encontre aqui conteúdos relacionados a estudos bíblicos, devocionais e livros cristãos de qualidade."
-          keywords={[`Bíblia`, `Estudo bíblico`, `Jesus`, `Cristão`, `Teologia`]}
+          keywords={[
+            `Bíblia`,
+            `Estudo bíblico`,
+            `Jesus`,
+            `Cristão`,
+            `Teologia`,
+          ]}
         />
         <SectionTitle>Estudos, devocionais e esboços</SectionTitle>
         <Description>
-          A finalidade desse site é ser um repositório de estudos, esboços, devocionais e meditações sobre a Palavra de Deus.
-          <br /><br />
+          A finalidade desse site é ser um repositório de estudos, esboços,
+          devocionais e meditações sobre a Palavra de Deus.
+          <br />
+          <br />
           <blockquote>
             "que a palavra do Senhor se propague e seja glorificada"
-            <br /><br />1 Tessalonicenses 3:1
+            <br />
+            <br />1 Tessalonicenses 3:1
           </blockquote>
-          Este era o desejo de Paulo: que à medida que a Palavra se propagasse, o próprio Senhor seria glorificado. 
-          Este também é o nosso coração para este projeto. Propagar a palavra por meio do ensino para que o Filho,
+          Este era o desejo de Paulo: que à medida que a Palavra se propagasse,
+          o próprio Senhor seria glorificado. Este também é o nosso coração para
+          este projeto. Propagar a palavra por meio do ensino para que o Filho,
           através de quem o Pai fala ainda hoje, receba toda a glória.
-          <br /><br />
-          Entretanto, a maioria dos artigos neste site será apenas um direcionamento com sugestões e informações
-          para que você faça os seus próprios estudos e chegue ao conhecimento de Jesus pessoalmente.
+          <br />
+          <br />
+          Entretanto, a maioria dos artigos neste site será apenas um
+          direcionamento com sugestões e informações para que você faça os seus
+          próprios estudos e chegue ao conhecimento de Jesus pessoalmente.
           <br />
           Seja bem vindo e bons estudos!
         </Description>
-        
-        <SectionSubTitle style={{ marginTop: 30 }}>Textos recentes:</SectionSubTitle>
+
+        <SectionSubTitle style={{ marginTop: 30 }}>
+          Textos recentes:
+        </SectionSubTitle>
         {posts.map(({ node }) => {
           const { title, read } = node.frontmatter
 
@@ -101,7 +115,7 @@ const Title = styled.span`
 
 const StyledLink = styled(Link)`
   color: #7f9e8e;
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 
   &:hover {
     text-decoration: none;
@@ -119,7 +133,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { page: { in: "post" } } }
     ) {
       edges {
