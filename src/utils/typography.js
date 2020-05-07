@@ -1,22 +1,21 @@
-import Typography from "typography"
-import Github from "typography-theme-github"
+import Typography from 'typography'
+import Github from 'typography-theme-github'
 
 Github.overrideThemeStyles = () => {
   return {
-    "a.gatsby-resp-image-link": {
+    'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
-    "a": {
+    a: {
       textDecoration: `none`,
-      cursor: `pointer`
+      cursor: `pointer`,
     },
-    "blockquote": {
-      marginBottom: `40px`
+    blockquote: {
+      marginBottom: `40px`,
     },
-    "body": {
+    body: {
       background: `#F8F8F8`,
     },
-
   }
 }
 

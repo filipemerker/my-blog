@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import { rhythm } from "../utils/typography"
-import Header from "./header"
+import { rhythm } from '../utils/typography'
+import Header from './header'
 
 class Layout extends React.Component {
   state = {
-    permission: 'default'
+    permission: 'default',
   }
 
   render() {
@@ -24,8 +24,7 @@ class Layout extends React.Component {
         >
           {children}
         </main>
-        <footer>
-        </footer>
+        <footer></footer>
       </div>
     )
   }
