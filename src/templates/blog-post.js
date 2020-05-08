@@ -61,33 +61,37 @@ class BlogPostTemplate extends React.Component {
               />
 
               <Share>
-                <FacebookShareButton role="Facebook share button" url={this.props.location.href}>
+                <FacebookShareButton url={this.props.location.href}>
                   <FacebookIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
+                  <Aria aria-hidden="true">facebook_share</Aria>
                 </FacebookShareButton>
-                <TwitterShareButton role="Twitter share button" url={this.props.location.href}>
+                <TwitterShareButton url={this.props.location.href}>
                   <TwitterIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
+                  <Aria aria-hidden="true">facebook_share</Aria>
                 </TwitterShareButton>
-                <WhatsappShareButton role="Whatsapp share button" url={this.props.location.href}>
+                <WhatsappShareButton url={this.props.location.href}>
                   <WhatsappIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
+                  <Aria aria-hidden="true">facebook_share</Aria>
                 </WhatsappShareButton>
-                <EmailShareButton role="Email share button" url={this.props.location.href}>
+                <EmailShareButton url={this.props.location.href}>
                   <EmailIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
+                  <Aria aria-hidden="true">facebook_share</Aria>
                 </EmailShareButton>
               </Share>
               <hr
@@ -152,6 +156,11 @@ class BlogPostTemplate extends React.Component {
     )
   }
 }
+
+const Aria = styled.span`
+  font-size: 0px;
+  visibility: hidden;
+`
 
 const SectionTitle = styled.span`
   font-size: 1.3rem;

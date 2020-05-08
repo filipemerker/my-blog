@@ -44,7 +44,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 690,
-              quality: 100
+              quality: 60
             },
           },
           {
@@ -60,7 +60,15 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        stripMetadata: true,
+        useMozJpeg: true,
+        defaultQuality: 60,
+        quality: 60,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

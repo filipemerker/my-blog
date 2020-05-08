@@ -69,7 +69,7 @@ Sua estátua está lá para nos lembrar que, em tempos de trevas, Deus encontrou
 
 Mas ainda mais importante que sua estátua é o fato de que seu nome está escrito nos céus, e que hoje ele está com o Senhor Jesus, pelo qual ele viveu e morreu.
 
-![Estátua de John Wycliffe](./john-wycliffe-estatua.png)
+![Estátua de John Wycliffe](./john-wycliffe-estatua.jpg)
 
 Por: **Filipe Merker**
 
