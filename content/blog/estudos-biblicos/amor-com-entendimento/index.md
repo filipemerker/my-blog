@@ -9,7 +9,7 @@ tags: ['Colossenses', 'Paulo', 'amor']
 read: 6 minutos
 ---
 
-![Placa neon dizendo LOVE](./love.jpg)
+![Placa neon dizendo LOVE](./love-s.jpg)
 
 > E também faço esta oração: que o **vosso amor aumente mais e mais** em **pleno conhecimento** e toda a percepção. (*Filipenses 1:9*)
 >
