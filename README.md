@@ -7,6 +7,6 @@
 <h1 align="center">
   <a href="https://examinandoasescrituras.com">Examinando as Escrituras</a>
 </h1>
-<p>This is a personal blog where i write about things concerning theology. It is made with Gatsby and implements Onesignal's push notification subscription system.
+<p>This is a personal blog where i write about things concerning theology.
 
 It is hosted and deployed on Firebase's Hosting</p>

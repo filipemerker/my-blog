@@ -52,16 +52,6 @@ class BlogPostTemplate extends React.Component {
                 Esse post foi importante para você?{' '}
                 <strong>Clique abaixo</strong> e compartilhe para edificar
                 outros.
-                <br />
-                <br />
-                <strong>Clique no sininho</strong> para ser avisado quando
-                publicarmos algo novo! <br />
-                <br />
-                <em>
-                  (Se você chegou aqui pelo Instagram, talvez precise abrir o
-                  site diretamente no navegador do seu celular para ver o
-                  sininho.)
-                </em>
               </CTA>
               <hr
                 style={{
