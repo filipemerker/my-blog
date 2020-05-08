@@ -71,7 +71,7 @@ Seja como for, hoje, em um grande monumento à Reforma na cidade de alemã de Wo
 
 Essa estátua está lá, para nos lembrar de um homem que **decidiu pagar o preço para viver a simplicidade de Jesus e um amor intenso à Palavra de Deus**.
 
-![Estátua de Pedro Valdo](./pedro-valdo-estatua.png)
+![Estátua de Pedro Valdo](./pedro-valdo-estatua.jpg)
 
 
 
