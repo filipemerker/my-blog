@@ -61,28 +61,28 @@ class BlogPostTemplate extends React.Component {
               />
 
               <Share>
-                <FacebookShareButton url={this.props.location.href}>
+                <FacebookShareButton name="Facebook share" url={this.props.location.href}>
                   <FacebookIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </FacebookShareButton>
-                <TwitterShareButton url={this.props.location.href}>
+                <TwitterShareButton name="Twitter share" url={this.props.location.href}>
                   <TwitterIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </TwitterShareButton>
-                <WhatsappShareButton url={this.props.location.href}>
+                <WhatsappShareButton name="Whatsapp share" url={this.props.location.href}>
                   <WhatsappIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </WhatsappShareButton>
-                <EmailShareButton url={this.props.location.href}>
+                <EmailShareButton name="Email share" url={this.props.location.href}>
                   <EmailIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
@@ -131,18 +131,20 @@ class BlogPostTemplate extends React.Component {
             </Content>
             <Aside>
               <SectionTitle>Outros Posts</SectionTitle>
-              {posts.map(post => {
-                const { title } = post.node.frontmatter
-                const { slug } = post.node.fields
+              <SectionList>
+                {posts.map(post => {
+                  const { title } = post.node.frontmatter
+                  const { slug } = post.node.fields
 
-                return (
-                  <SidebarItem key={title}>
-                    <StyledLink style={{ boxShadow: `none` }} to={slug}>
-                      {title}
-                    </StyledLink>
-                  </SidebarItem>
-                )
-              })}
+                  return (
+                    <SidebarItem key={title}>
+                      <StyledLink style={{ boxShadow: `none` }} to={slug}>
+                        {title}
+                      </StyledLink>
+                    </SidebarItem>
+                  )
+                })}
+              </SectionList>
             </Aside>
           </Page>
         </Layout>
@@ -156,6 +158,12 @@ const SectionTitle = styled.span`
   font-weight: 500;
   display: inline-block;
   margin-bottom: 20px;
+`
+
+const SectionList = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
 `
 
 const SidebarItem = styled.li`
