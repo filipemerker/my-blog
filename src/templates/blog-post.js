@@ -61,28 +61,28 @@ class BlogPostTemplate extends React.Component {
               />
 
               <Share>
-                <FacebookShareButton name="Facebook share" url={this.props.location.href}>
+                <FacebookShareButton role="Facebook share button" url={this.props.location.href}>
                   <FacebookIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </FacebookShareButton>
-                <TwitterShareButton name="Twitter share" url={this.props.location.href}>
+                <TwitterShareButton role="Twitter share button" url={this.props.location.href}>
                   <TwitterIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </TwitterShareButton>
-                <WhatsappShareButton name="Whatsapp share" url={this.props.location.href}>
+                <WhatsappShareButton role="Whatsapp share button" url={this.props.location.href}>
                   <WhatsappIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
                     round={true}
                   />
                 </WhatsappShareButton>
-                <EmailShareButton name="Email share" url={this.props.location.href}>
+                <EmailShareButton role="Email share button" url={this.props.location.href}>
                   <EmailIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
