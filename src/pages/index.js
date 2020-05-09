@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
-        title="Todos os Posts"
+        title="Estudos Bíblicos e Devocionais"
         description="Encontre aqui conteúdos relacionados a estudos bíblicos, devocionais e livros cristãos de qualidade."
         keywords={[`Bíblia`, `Estudo bíblico`, `Jesus`, `Cristão`, `Teologia`]}
       />
