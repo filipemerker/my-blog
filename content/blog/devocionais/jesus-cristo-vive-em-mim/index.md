@@ -4,7 +4,7 @@ date: "2019-03-10T22:40:32.169Z"
 description: O que significa que Cristo vive em mim? Qual o impacto que essa verdade deve ter na minha vida?
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['cristo', 'galatas', 'santidade']
 read: 5 minutos
 ---

@@ -4,7 +4,7 @@ description: Esse texto é para todos que ainda estão aprendendo a profundidade
 date: "2019-10-10T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['paternidade', 'pai nosso', 'mateus 6']
 read: 3 minutos
 ---

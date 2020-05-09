@@ -4,7 +4,7 @@ description: Em Colossenses, Paulo no ensina como praticar o verdadeiro amor, se
 date: "2019-08-27T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['Colossenses', 'Paulo', 'amor']
 read: 6 minutos
 ---

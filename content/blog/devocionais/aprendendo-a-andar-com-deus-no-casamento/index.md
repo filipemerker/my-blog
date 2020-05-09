@@ -4,7 +4,7 @@ date: "2019-04-28T12:40:32.169Z"
 description: O casamento foi instituído por Deus para ser um ambiente onde devemos aprender a andar com Ele. Quais exemplos podemos ver disso?
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['casamento', 'andar com deus']
 read: 7 minutos
 ---

@@ -1,7 +1,7 @@
 ---
-title: Dando graças em tudo
+title: O que a Bíblia diz sobre gratidão?
 date: "2019-05-16T12:40:32.169Z"
-description: Qual a vontade de Deus para a nossa vida? Que demos sempre graças, em tudo.
+description: Qual a vontade de Deus para a nossa vida? Que demos sempre graças, em tudo. Descubra o que a Bíblia diz sobre isso.
 
 page: post
 category: estudos-biblicos
@@ -11,7 +11,7 @@ read: 6 minutos
 
 ![Homem no topo de uma montanha](./thankful-man.jpg)
 
-*Este texto é o resumo de uma mensagem ministrada pelo irmão Víctor Rodriguez, da Argentina, em Porto Alegre 19/04/19.*
+*Este estudo é o resumo de uma mensagem ministrada pelo irmão Víctor Rodriguez, da Argentina, em Porto Alegre 19/04/19.*
 
 ------
 

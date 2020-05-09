@@ -4,7 +4,7 @@ description: Você sabe quão importante é ter um tempo a sós com Deus? Descub
 date: "2019-08-27T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['Lucas', 'intimidade', 'amor', 'maria', 'marta']
 read: 5 minutos
 ---

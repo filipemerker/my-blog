@@ -4,7 +4,7 @@ description: Quando olhamos para a criação em Gênesis, vemos que Deus nos fez
 date: "2019-05-16T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['santidade', 'identidade', 'imagem de deus']
 read: 5 minutos
 ---
