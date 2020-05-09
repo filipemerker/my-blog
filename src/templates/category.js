@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
@@ -7,51 +7,49 @@ import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import categories from '../utils/categories'
 
-class Category extends React.Component {
-  render() {
-    const { data, pageContext } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const { frontmatter, html } = data.markdownRemark
-    const posts = data.allMarkdownRemark.edges
+const Category = ({ data, pageContext, location }) => {
+  const siteTitle = data.site.siteMetadata.title
+  const { frontmatter, html } = data.markdownRemark
+  const posts = data.allMarkdownRemark.edges
 
-    return (
-      <Layout
-        location={this.props.location}
-        title={siteTitle}
-        category={pageContext.category}
-      >
-        <SEO
-          title={categories[pageContext.category]}
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <hr
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        />
+  return (
+    <Layout
+      location={location}
+      title={siteTitle}
+      category={pageContext.category}
+    >
+      <SEO
+        title={categories[pageContext.category]}
+        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+      />
+      <h1>{frontmatter.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <hr
+        style={{
+          marginTop: rhythm(1),
+          marginBottom: rhythm(1),
+        }}
+      />
 
-        <SectionTitle>Artigos:</SectionTitle>
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <Card key={node.fields.slug}>
-              <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
-                <Title>{title}</Title>
-                <Excerpt
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </StyledLink>
-            </Card>
-          )
-        })}
-      </Layout>
-    )
-  }
+      <SectionTitle>Artigos:</SectionTitle>
+      {posts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+          <Card key={node.fields.slug}>
+            <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
+              <Title>{title}</Title>
+              <Excerpt
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description || node.excerpt,
+                }}
+              />
+            </StyledLink>
+          </Card>
+        )
+      })}
+    </Layout>
+  )
+
 }
 
 const Card = styled.article`
@@ -87,7 +85,7 @@ const StyledLink = styled(Link)`
   }
 `
 
-export default Category
+export default memo(Category)
 
 export const pageQuery = graphql`
   query BlogPostsByCategory($category: String, $slug: String!) {

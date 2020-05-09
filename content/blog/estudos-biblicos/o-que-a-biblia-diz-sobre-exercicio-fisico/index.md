@@ -1,7 +1,7 @@
 ---
 title: O que a Bíblia diz sobre exercício físico?
 description: Você já se perguntou o que a Bíblia diz sobre a prática de esportes e de exercício físico? Descubra aqui.
-date: "2019-05-01T22:12:03.284Z"
+date: "2020-05-09T22:12:03.284Z"
 
 page: post
 category: estudos-biblicos
@@ -9,7 +9,7 @@ tags: ['exercicio fisico', 'corpo', 'saude']
 read: 7 minutos
 ---
 
-![Homem segurando uma barra olímpica de crossfit](./o-que-a-biblia-diz-sobre-exercicio-fisico.png)
+![Homem segurando uma barra olímpica de crossfit](./o-que-a-biblia-diz-sobre-exerc.jpg)
 
 Resumidamente, podemos dizer que a Bíblia **encoraja a prática do exercício físico** como uma forma de cuidado com a saúde e fortalecimento preparatório para os desafio do dia-a-dia. Paulo diz: glorifiquem a Deus com o corpo de vocês.
 

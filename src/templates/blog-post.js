@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { Fragment } from 'react'
+import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Link, graphql } from 'gatsby'
 import {
@@ -17,144 +17,142 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const { frontmatter, excerpt, html } = this.props.data.markdownRemark
-    const { previous, next } = this.props.pageContext
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const posts = this.props.data.allMarkdownRemark.edges
+const BlogPostTemplate = ({ data, pageContext, location }) => {
+  const { frontmatter, excerpt, html } = data.markdownRemark
+  const { previous, next } = pageContext
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
 
-    return (
-      <>
-        <Layout
-          isPost
-          location={this.props.location}
-          title={siteTitle}
-          category={frontmatter.category}
-        >
-          <Page>
-            <Content>
-              <SEO
-                title={frontmatter.title}
-                description={frontmatter.description || excerpt}
-                category={frontmatter.category}
-              />
-              <Title>{frontmatter.title}</Title>
-              <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
-              <div dangerouslySetInnerHTML={{ __html: html }} />
-              <hr
-                style={{
-                  marginTop: rhythm(1),
-                  marginBottom: rhythm(1),
-                }}
-              />
-              <CTA>
-                Esse post foi importante para você?{' '}
-                <strong>Clique abaixo</strong> e compartilhe para edificar
-                outros.
-              </CTA>
-              <hr
-                style={{
-                  marginTop: rhythm(1),
-                  marginBottom: rhythm(1),
-                }}
-              />
+  return (
+    <>
+      <Layout
+        isPost
+        location={location}
+        title={siteTitle}
+        category={frontmatter.category}
+      >
+        <Page>
+          <Content>
+            <SEO
+              title={frontmatter.title}
+              description={frontmatter.description || excerpt}
+              category={frontmatter.category}
+            />
+            <Title>{frontmatter.title}</Title>
+            <Info>{`Leitura de ${frontmatter.read || `5 minutos`}`}</Info>
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <hr
+              style={{
+                marginTop: rhythm(1),
+                marginBottom: rhythm(1),
+              }}
+            />
+            <CTA>
+              Esse post foi importante para você?{' '}
+              <strong>Clique abaixo</strong> e compartilhe para edificar
+              outros.
+            </CTA>
+            <hr
+              style={{
+                marginTop: rhythm(1),
+                marginBottom: rhythm(1),
+              }}
+            />
 
-              <Share>
-                <FacebookShareButton ariaLabel="Share on Facebook" url={this.props.location.href}>
-                  <FacebookIcon
-                    iconBgStyle={{ fill: '#7f9e8e' }}
-                    size={32}
-                    round={true}
-                  />
-                  <Aria aria-hidden="true">facebook_share</Aria>
-                </FacebookShareButton>
-                <TwitterShareButton ariaLabel="Share on Twitter" url={this.props.location.href}>
-                  <TwitterIcon
-                    iconBgStyle={{ fill: '#7f9e8e' }}
-                    size={32}
-                    round={true}
-                  />
-                  <Aria aria-hidden="true">facebook_share</Aria>
-                </TwitterShareButton>
-                <WhatsappShareButton ariaLabel="Share on Whatsapp" url={this.props.location.href}>
-                  <WhatsappIcon
-                    iconBgStyle={{ fill: '#7f9e8e' }}
-                    size={32}
-                    round={true}
-                  />
-                  <Aria aria-hidden="true">facebook_share</Aria>
-                </WhatsappShareButton>
-                <EmailShareButton ariaLabel="Share via Email" url={this.props.location.href}>
-                  <EmailIcon
-                    iconBgStyle={{ fill: '#7f9e8e' }}
-                    size={32}
-                    round={true}
-                  />
-                  <Aria aria-hidden="true">facebook_share</Aria>
-                </EmailShareButton>
-              </Share>
-              <hr
-                style={{
-                  marginTop: rhythm(1),
-                  marginBottom: rhythm(1),
-                }}
-              />
+            <Share>
+              <FacebookShareButton url={location.href}>
+                <FacebookIcon
+                  bgStyle={{ fill: '#7f9e8e' }}
+                  size={32}
+                  round={true}
+                />
+                <Aria aria-hidden="true">facebook_share</Aria>
+              </FacebookShareButton>
+              <TwitterShareButton url={location.href}>
+                <TwitterIcon
+                  bgStyle={{ fill: '#7f9e8e' }}
+                  size={32}
+                  round={true}
+                />
+                <Aria aria-hidden="true">facebook_share</Aria>
+              </TwitterShareButton>
+              <WhatsappShareButton url={location.href}>
+                <WhatsappIcon
+                  bgStyle={{ fill: '#7f9e8e' }}
+                  size={32}
+                  round={true}
+                />
+                <Aria aria-hidden="true">facebook_share</Aria>
+              </WhatsappShareButton>
+              <EmailShareButton url={location.href}>
+                <EmailIcon
+                  bgStyle={{ fill: '#7f9e8e' }}
+                  size={32}
+                  round={true}
+                />
+                <Aria aria-hidden="true">facebook_share</Aria>
+              </EmailShareButton>
+            </Share>
+            <hr
+              style={{
+                marginTop: rhythm(1),
+                marginBottom: rhythm(1),
+              }}
+            />
 
-              <ul
-                style={{
-                  display: `flex`,
-                  flexWrap: `wrap`,
-                  justifyContent: `space-between`,
-                  listStyle: `none`,
-                  padding: 0,
-                  margin: 0,
-                }}
-              >
-                <li>
-                  {previous && (
-                    <StyledLink to={previous.fields.slug} rel="prev">
-                      ←{' '}
-                      {previous.frontmatter.title.length > 35
-                        ? `${previous.frontmatter.title.slice(0, 35)}...`
-                        : previous.frontmatter.title}
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+                margin: 0,
+              }}
+            >
+              <li>
+                {previous && (
+                  <StyledLink to={previous.fields.slug} rel="prev">
+                    ←{' '}
+                    {previous.frontmatter.title.length > 35
+                      ? `${previous.frontmatter.title.slice(0, 35)}...`
+                      : previous.frontmatter.title}
+                  </StyledLink>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <StyledLink to={next.fields.slug} rel="next">
+                    {next.frontmatter.title.length > 35
+                      ? `${next.frontmatter.title.slice(0, 35)}...`
+                      : next.frontmatter.title}{' '}
+                    →
+                  </StyledLink>
+                )}
+              </li>
+            </ul>
+          </Content>
+          <Aside>
+            <SectionTitle>Outros Posts</SectionTitle>
+            <SectionList>
+              {posts.map(post => {
+                const { title } = post.node.frontmatter
+                const { slug } = post.node.fields
+
+                return (
+                  <SidebarItem key={title}>
+                    <StyledLink style={{ boxShadow: `none` }} to={slug}>
+                      {title}
                     </StyledLink>
-                  )}
-                </li>
-                <li>
-                  {next && (
-                    <StyledLink to={next.fields.slug} rel="next">
-                      {next.frontmatter.title.length > 35
-                        ? `${next.frontmatter.title.slice(0, 35)}...`
-                        : next.frontmatter.title}{' '}
-                      →
-                    </StyledLink>
-                  )}
-                </li>
-              </ul>
-            </Content>
-            <Aside>
-              <SectionTitle>Outros Posts</SectionTitle>
-              <SectionList>
-                {posts.map(post => {
-                  const { title } = post.node.frontmatter
-                  const { slug } = post.node.fields
-
-                  return (
-                    <SidebarItem key={title}>
-                      <StyledLink style={{ boxShadow: `none` }} to={slug}>
-                        {title}
-                      </StyledLink>
-                    </SidebarItem>
-                  )
-                })}
-              </SectionList>
-            </Aside>
-          </Page>
-        </Layout>
-      </>
-    )
-  }
+                  </SidebarItem>
+                )
+              })}
+            </SectionList>
+          </Aside>
+        </Page>
+      </Layout>
+    </>
+  )
 }
 
 const Aria = styled.span`
@@ -257,7 +255,7 @@ const StyledLink = styled(Link)`
   }
 `
 
-export default BlogPostTemplate
+export default memo(BlogPostTemplate)
 
 export const pageQuery = graphql`
   query BlogPostBySlug($category: String, $slug: String!) {

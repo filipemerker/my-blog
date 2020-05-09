@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
@@ -6,67 +6,101 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+const getLatestByCategory = (list, category) => (
+  list.filter(({ node }) => (
+    node
+      .frontmatter
+      .category
+      .includes(category)
+  )).slice(0, 5)
+)
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="Todos os Posts"
-          description="Encontre aqui conteúdos relacionados a estudos bíblicos, devocionais e livros cristãos de qualidade."
-          keywords={[
-            `Bíblia`,
-            `Estudo bíblico`,
-            `Jesus`,
-            `Cristão`,
-            `Teologia`,
-          ]}
-        />
-        <SectionTitle>Estudos, devocionais e esboços</SectionTitle>
-        <Description>
-          A finalidade desse site é ser um repositório de estudos, esboços,
-          devocionais e meditações sobre a Palavra de Deus.
-          <br />
-          <br />
-          <blockquote>
-            "que a palavra do Senhor se propague e seja glorificada"
-            <br />
-            <br />1 Tessalonicenses 3:1
-          </blockquote>
-          Este era o desejo de Paulo: que à medida que a Palavra se propagasse,
-          o próprio Senhor seria glorificado. Este também é o nosso coração para
-          este projeto. Propagar a palavra por meio do ensino para que o Filho,
-          através de quem o Pai fala ainda hoje, receba toda a glória.
-          <br />
-          <br />
-          Entretanto, a maioria dos artigos neste site será apenas um
-          direcionamento com sugestões e informações para que você faça os seus
-          próprios estudos e chegue ao conhecimento de Jesus pessoalmente.
-          <br />
-          Seja bem vindo e bons estudos!
-        </Description>
+const BlogIndex = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
 
-        <SectionSubTitle style={{ marginTop: 30 }}>
-          Textos recentes:
-        </SectionSubTitle>
-        {posts.map(({ node }) => {
-          const { title, read } = node.frontmatter
+  const latest = [
+    {
+      title: 'Estudos bíblicos recentes:',
+      items: getLatestByCategory(posts, 'estudos-biblicos')
+    },
+    {
+      title: 'Posts recentes sobre história da igreja:',
+      items: getLatestByCategory(posts, 'historia-da-igreja')
+    },
+    {
+      title: 'Devocionais recentes:',
+      items: getLatestByCategory(posts, 'devocionais')
+    }
+  ]
 
-          return (
-            <Card key={node.fields.slug}>
-              <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
-                <Title>{title}</Title>
-                <Info>{`Leitura de ${read || `5 minutos`}`}</Info>
-              </StyledLink>
-            </Card>
-          )
-        })}
-      </Layout>
-    )
-  }
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO
+        title="Todos os Posts"
+        description="Encontre aqui conteúdos relacionados a estudos bíblicos, devocionais e livros cristãos de qualidade."
+        keywords={[
+          `Bíblia`,
+          `Estudo bíblico`,
+          `Jesus`,
+          `Cristão`,
+          `Teologia`,
+        ]}
+      />
+      <SectionTitle>Estudos Bíblicos, devocionais e História da Igreja</SectionTitle>
+      <Description>
+        A finalidade desse site é ser um repositório de estudos, esboços,
+        devocionais e meditações sobre a Palavra de Deus.
+        <br />
+        <br />
+      </Description>
+      <blockquote>
+        <p>
+          que a palavra do Senhor se propague e seja glorificada
+          <br />
+          <br />
+          1 Tessalonicenses 3:1
+        </p>
+      </blockquote>
+      <Description>
+        Este era o desejo de Paulo: que à medida que a Palavra se propagasse,
+        o próprio Senhor seria glorificado. Este também é o nosso coração para
+        este projeto. Propagar a palavra por meio do ensino para que o Filho,
+        através de quem o Pai fala ainda hoje, receba toda a glória.
+        <br />
+        <br />
+        Entretanto, a maioria dos artigos neste site será apenas um
+        direcionamento com sugestões e informações para que você faça os seus
+        próprios estudos e chegue ao conhecimento de Jesus pessoalmente.
+        <br />
+        <br />
+        Seja bem vindo e bons estudos!
+      </Description>
+
+      {
+        latest.map(({ title, items }) => (
+          <section key={title}>
+            <SectionSubTitle style={{ marginTop: 30 }}>
+              {title}
+            </SectionSubTitle>
+
+            {items.map(({ node }) => {
+              const { title, read } = node.frontmatter
+
+              return (
+                <Card key={node.fields.slug}>
+                  <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    <Title>{title}</Title>
+                    <Info>{`Leitura de ${read || `5 minutos`}`}</Info>
+                  </StyledLink>
+                </Card>
+              )
+            })}
+          </section>
+        ))
+      }
+    </Layout>
+  )
 }
 
 const Card = styled.article`
@@ -123,7 +157,7 @@ const StyledLink = styled(Link)`
   }
 `
 
-export default BlogIndex
+export default memo(BlogIndex)
 
 export const pageQuery = graphql`
   query {
@@ -146,6 +180,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             read
+            category
           }
         }
       }
