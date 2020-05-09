@@ -61,7 +61,7 @@ class BlogPostTemplate extends React.Component {
               />
 
               <Share>
-                <FacebookShareButton url={this.props.location.href}>
+                <FacebookShareButton ariaLabel="Share on Facebook" url={this.props.location.href}>
                   <FacebookIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
@@ -69,7 +69,7 @@ class BlogPostTemplate extends React.Component {
                   />
                   <Aria aria-hidden="true">facebook_share</Aria>
                 </FacebookShareButton>
-                <TwitterShareButton url={this.props.location.href}>
+                <TwitterShareButton ariaLabel="Share on Twitter" url={this.props.location.href}>
                   <TwitterIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
@@ -77,7 +77,7 @@ class BlogPostTemplate extends React.Component {
                   />
                   <Aria aria-hidden="true">facebook_share</Aria>
                 </TwitterShareButton>
-                <WhatsappShareButton url={this.props.location.href}>
+                <WhatsappShareButton ariaLabel="Share on Whatsapp" url={this.props.location.href}>
                   <WhatsappIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
@@ -85,7 +85,7 @@ class BlogPostTemplate extends React.Component {
                   />
                   <Aria aria-hidden="true">facebook_share</Aria>
                 </WhatsappShareButton>
-                <EmailShareButton url={this.props.location.href}>
+                <EmailShareButton ariaLabel="Share via Email" url={this.props.location.href}>
                   <EmailIcon
                     iconBgStyle={{ fill: '#7f9e8e' }}
                     size={32}
