@@ -4,7 +4,7 @@ description: Você sabe qual o padrão Bíblico para um evangelismo eficaz? Desc
 date: "2019-11-15T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['evangelismo', 'estratégias', 'métodos']
 read: 6 minutos
 ---
