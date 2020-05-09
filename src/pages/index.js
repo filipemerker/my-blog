@@ -35,7 +35,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO
         title="Estudos Bíblicos e Devocionais"
         description={
-          'Encontre aqui conteúdos relacionados a estudos bíblicos, história da Igreja, devocionais e livros cristãos e teologia de qualidade.'
+          'Examinando as Escrituras! Encontre aqui conteúdos relacionados a estudos bíblicos, história da Igreja, devocionais e livros cristãos e teologia de qualidade.'
         }
         keywords={[`Bíblia`, `Estudo bíblico`, `Jesus`, `Cristão`, `Teologia`]}
       />
