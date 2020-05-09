@@ -2,6 +2,7 @@ import React from 'react'
 
 import { rhythm } from '../utils/typography'
 import Header from './header'
+import CookieBanner from './cookie-banner'
 
 class Layout extends React.Component {
   state = {
@@ -25,6 +26,7 @@ class Layout extends React.Component {
           {children}
         </main>
         <footer></footer>
+        <CookieBanner />
       </div>
     )
   }

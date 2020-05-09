@@ -44,7 +44,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 690,
-              quality: 80
+              quality: 100
             },
           },
           {
@@ -65,8 +65,8 @@ module.exports = {
       options: {
         stripMetadata: true,
         useMozJpeg: true,
-        defaultQuality: 80,
-        quality: 80,
+        defaultQuality: 100,
+        quality: 100,
       },
     },
     {
