@@ -48,9 +48,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               }}
             />
             <CTA>
-              Esse post foi importante para você?{' '}
-              <strong>Clique abaixo</strong> e compartilhe para edificar
-              outros.
+              Esse post foi importante para você? <strong>Clique abaixo</strong>{' '}
+              e compartilhe para edificar outros.
             </CTA>
             <hr
               style={{

@@ -6,14 +6,10 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
-const getLatestByCategory = (list, category) => (
-  list.filter(({ node }) => (
-    node
-      .frontmatter
-      .category
-      .includes(category)
-  )).slice(0, 5)
-)
+const getLatestByCategory = (list, category) =>
+  list
+    .filter(({ node }) => node.frontmatter.category.includes(category))
+    .slice(0, 5)
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -22,16 +18,16 @@ const BlogIndex = ({ data, location }) => {
   const latest = [
     {
       title: 'Estudos bíblicos recentes:',
-      items: getLatestByCategory(posts, 'estudos-biblicos')
+      items: getLatestByCategory(posts, 'estudos-biblicos'),
     },
     {
       title: 'Posts recentes sobre história da igreja:',
-      items: getLatestByCategory(posts, 'historia-da-igreja')
+      items: getLatestByCategory(posts, 'historia-da-igreja'),
     },
     {
       title: 'Devocionais recentes:',
-      items: getLatestByCategory(posts, 'devocionais')
-    }
+      items: getLatestByCategory(posts, 'devocionais'),
+    },
   ]
 
   return (
@@ -39,15 +35,11 @@ const BlogIndex = ({ data, location }) => {
       <SEO
         title="Todos os Posts"
         description="Encontre aqui conteúdos relacionados a estudos bíblicos, devocionais e livros cristãos de qualidade."
-        keywords={[
-          `Bíblia`,
-          `Estudo bíblico`,
-          `Jesus`,
-          `Cristão`,
-          `Teologia`,
-        ]}
+        keywords={[`Bíblia`, `Estudo bíblico`, `Jesus`, `Cristão`, `Teologia`]}
       />
-      <SectionTitle>Estudos Bíblicos, devocionais e História da Igreja</SectionTitle>
+      <SectionTitle>
+        Estudos Bíblicos, devocionais e História da Igreja
+      </SectionTitle>
       <Description>
         A finalidade desse site é ser um repositório de estudos, esboços,
         devocionais e meditações sobre a Palavra de Deus.
@@ -58,13 +50,12 @@ const BlogIndex = ({ data, location }) => {
         <p>
           que a palavra do Senhor se propague e seja glorificada
           <br />
-          <br />
-          1 Tessalonicenses 3:1
+          <br />1 Tessalonicenses 3:1
         </p>
       </blockquote>
       <Description>
-        Este era o desejo de Paulo: que à medida que a Palavra se propagasse,
-        o próprio Senhor seria glorificado. Este também é o nosso coração para
+        Este era o desejo de Paulo: que à medida que a Palavra se propagasse, o
+        próprio Senhor seria glorificado. Este também é o nosso coração para
         este projeto. Propagar a palavra por meio do ensino para que o Filho,
         através de quem o Pai fala ainda hoje, receba toda a glória.
         <br />
@@ -77,28 +68,24 @@ const BlogIndex = ({ data, location }) => {
         Seja bem vindo e bons estudos!
       </Description>
 
-      {
-        latest.map(({ title, items }) => (
-          <section key={title}>
-            <SectionSubTitle style={{ marginTop: 30 }}>
-              {title}
-            </SectionSubTitle>
+      {latest.map(({ title, items }) => (
+        <section key={title}>
+          <SectionSubTitle style={{ marginTop: 30 }}>{title}</SectionSubTitle>
 
-            {items.map(({ node }) => {
-              const { title, read } = node.frontmatter
+          {items.map(({ node }) => {
+            const { title, read } = node.frontmatter
 
-              return (
-                <Card key={node.fields.slug}>
-                  <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    <Title>{title}</Title>
-                    <Info>{`Leitura de ${read || `5 minutos`}`}</Info>
-                  </StyledLink>
-                </Card>
-              )
-            })}
-          </section>
-        ))
-      }
+            return (
+              <Card key={node.fields.slug}>
+                <StyledLink style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Title>{title}</Title>
+                  <Info>{`Leitura de ${read || `5 minutos`}`}</Info>
+                </StyledLink>
+              </Card>
+            )
+          })}
+        </section>
+      ))}
     </Layout>
   )
 }

@@ -49,7 +49,6 @@ const Category = ({ data, pageContext, location }) => {
       })}
     </Layout>
   )
-
 }
 
 const Card = styled.article`
