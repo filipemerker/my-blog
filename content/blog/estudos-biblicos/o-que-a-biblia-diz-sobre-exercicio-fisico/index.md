@@ -11,13 +11,13 @@ read: 7 minutos
 
 ![Homem segurando uma barra olímpica de crossfit](./o-que-a-biblia-diz-sobre-exerc.jpg)
 
-Resumidamente, podemos dizer que a Bíblia **encoraja a prática do exercício físico** como uma forma de cuidado com a saúde e fortalecimento preparatório para os desafio do dia-a-dia. Paulo diz: glorifiquem a Deus com o corpo de vocês.
+Resumidamente, podemos dizer que a Bíblia **encoraja a prática do exercício físico** como uma forma de cuidado com a saúde e fortalecimento preparatório para os desafios do dia-a-dia. Paulo diz: glorifiquem a Deus com o corpo de vocês.
 
 Contudo, as proibições e cuidados em relação a esportes e exercício físico são: 
 
-- A idolatria do corpo.
-- A sensualidade.
-- A confiança na própria força.
+- A idolatria do corpo;
+- A sensualidade;
+- A confiança na própria força;
 - Envolvimento e foco excessivo nas atividades físicas.
 
 Portanto, vamos estudar juntos e ver os textos bíblicos que nos explicam as afirmações acima. Que o Espírito Santo ilumine nosso entendimento nessa jornada!
@@ -55,7 +55,7 @@ No contexto dessa passagem, ele está falando de coisas que destroem o nosso cor
 
 Entretanto, veja em Gálatas 5:21 que, na mesma lista de pecados que começa com **prostituição** termina com **glutonaria**. Ou seja, hábitos alimentares destrutivos não permitem que Deus seja glorificado em nosso corpo.
 
-Por isso, a Bíblia fala tão claramente contra a gula (Dt 21:20; Pv 23:2; 2 Pe 1:5-7; 2 Ti 3:1-9; 2 Co 10:5).
+Por isso a Bíblia fala tão claramente contra a gula (Dt 21:20; Pv 23:2; 2 Pe 1:5-7; 2 Ti 3:1-9; 2 Co 10:5).
 
 Também vemos como a Bíblia fala contra a **preguiça**. O livro de Provérbios é repleto de referências a como a preguiça é destrutiva para uma pessoa (6:6-8, 6:9-11, 10:4-5, 10:26, 12:27, 13:4, 15:19, 20:13, 21:25-26, 24:30 26:14, 26:13, 18:9, 26:16).
 
@@ -109,16 +109,16 @@ Paulo também fala de si mesmo como alguém que "corre, não sem meta, luta, mas
 
 ## Os perigos do exercício físico
 
-Como dissemos anteriormente, são 4 perigos princípais ao nos envolvermos com a atividade física:
+Como dissemos anteriormente, são 4 perigos principais ao nos envolvermos com a atividade física:
 
-1. **A idolatria do corpo**. Quando Paulo apresenta a idolatria em Romanos 1, ele fala de pessoas que "adoraram e serviram a criatura em lugar do Criador". Esse é sempre um risco ao nos exercitarmos. Se o espelho se torna o seu novo lugar preferido, ore ao Senhor para que ele coloque seus olhos no lugar certo.
+1. **A idolatria do corpo**. Quando Paulo apresenta a idolatria em Romanos 1 ele fala de pessoas que "adoraram e serviram a criatura em lugar do Criador". Esse é sempre um risco ao nos exercitarmos. Se o espelho se torna o seu novo lugar preferido, ore ao Senhor para que ele coloque seus olhos no lugar certo.
 2. **A sensualidade**. O mesmo vale para nossa intenção ao nos exercitarmos. Deus sonda nosso coração. Provérbios considera usar o corpo como um instrumento de sedução (fora do casamento) como prostituição e adultério.
 3. **Confiança na própria força**. A Bíblia nos adverte: "Não digas, pois, no teu coração: A minha força e o poder do meu braço me adquiriram estas riquezas." (Dt 8:17) Não é errado sentir-se confiante. Errado é sentir-se autoconfiante e esquecer que Deus é a fonte de bênçãos e o nosso protetor em todo o tempo.
-4. **Envolvimento e foco excessivo nas atividades físicas**. Como vimos em 1 Timóteo, desde o futebol de sexta até ao treino da academia, se nosso envolvimento com a atividade física, nos limita em nosso tempo e envolvimento com as coisas de Deus, devemos escolher aquilo que é de Deus.
+4. **Envolvimento e foco excessivo nas atividades físicas**. Como vimos em 1 Timóteo, desde o futebol de sexta até ao treino da academia, se nosso envolvimento com a atividade física nos limita em nosso tempo e envolvimento com as coisas de Deus, devemos escolher aquilo que é de Deus.
 
 Portanto, creio que podemos mais uma vez afirmar como no início: o desejo de Deus é que sejamos uma expressão da sua glória, inclusive através do nosso corpo!
 
-Termino com um texto que nos encoraja ao exercício lembrando que Deus é o maior interessado em conserver nosso corpo:
+Termino com um texto que nos encoraja ao exercício lembrando que Deus é o maior interessado em conservar nosso corpo:
 
 > O mesmo Deus da paz vos santifique em tudo; e o vosso espírito, alma e **corpo** sejam conservados íntegros e irrepreensíveis na vinda de nosso Senhor Jesus Cristo.
 >
