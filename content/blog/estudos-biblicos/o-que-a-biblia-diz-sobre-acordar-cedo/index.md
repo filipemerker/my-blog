@@ -1,7 +1,7 @@
 ---
 title: O que a Bíblia diz sobre acordar cedo?
 description: Qual o melhor horário para buscar a Deus? Veja aqui o que a Bíblia diz sobre isso.
-date: "2019-05-01T22:12:03.284Z"
+date: "2019-11-01T22:12:03.284Z"
 
 page: post
 category: estudos-biblicos
@@ -11,7 +11,13 @@ read: 7 minutos
 
 ![Homem em um uma noite de céu estrelado](./man-at-night.jpg)
 
-##Qual o melhor horário para buscar a Deus?
+Em resumo, precisamos saber, em primeiro lugar, que qualquer hora é hora de buscar a Deus. Deus nos chama para um relacionamento **hoje**, há qualquer momento do dia.
+
+Entretanto, a Bíblia nos mostra um padrão que nos ensina que o **melhor** momento do dia para termos comunhão com Deus é cedo pela **manhã**.
+
+Te convido a estudarmos juntos esse assunto e aprendermos aquilo que Deus quer nos ensinar.
+
+## Qual o melhor horário para buscar a Deus?
 
 Sabemos que a única garantia de que temos acesso à presença de Deus é a obra de Cristo, o novo e vivo caminho, que nos garante acesso à sua presença há qualquer momento! Hebreus diz que quando nos chegamos ao trono da graça, recebemos socorro na **ocasião oportuna**, ou seja, na hora da necessidade, seja ela qual for.
 
