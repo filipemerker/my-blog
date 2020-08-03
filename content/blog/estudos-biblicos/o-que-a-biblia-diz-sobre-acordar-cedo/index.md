@@ -11,7 +11,7 @@ read: 7 minutos
 
 ![Homem em um uma noite de céu estrelado](./man-at-night.jpg)
 
-Em resumo, precisamos saber, em primeiro lugar, que qualquer hora é hora de buscar a Deus. Deus nos chama para um relacionamento **hoje**, há qualquer momento do dia.
+Em resumo, precisamos saber, em primeiro lugar, que qualquer hora é hora de buscar a Deus. Deus nos chama para um relacionamento **hoje**, a qualquer momento do dia.
 
 Entretanto, a Bíblia nos mostra um padrão que nos ensina que o **melhor** momento do dia para termos comunhão com Deus é cedo pela **manhã**.
 

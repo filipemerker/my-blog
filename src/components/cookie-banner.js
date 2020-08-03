@@ -38,10 +38,10 @@ const Banner = styled.div`
   max-width: 550px;
   width: 95%;
 
-  bottom: 70px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgb(81, 206, 117);
+  background: #769284;
   box-shadow: 0px 0px 10px -4px black;
   box-sizing: border-box;
 
@@ -62,7 +62,7 @@ const Text = styled.p`
 const Button = styled.button`
   width: 70px;
   height: 37px;
-  background: #23ad4c;
+  background: #55695f;
   border: none;
   color: white;
   cursor: pointer;

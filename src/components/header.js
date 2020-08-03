@@ -84,35 +84,37 @@ function Header(props) {
     <StaticQuery
       query={headerQuery}
       render={data => (
-        <StyledHeader home={home}>
-          {home && (
-            <Image
-              fixed={data.header.childImageSharp.fixed}
-              alt={`Bíblia de estudos anotada`}
-              style={{
-                marginBottom: 0,
-                borderRadius: 0,
-                width: `100%`,
-                opacity: 0.35,
-              }}
-              imgStyle={{
-                borderRadius: 0,
-              }}
-            />
-          )}
-          {heading}
-          <Nav>
-            {data.allMarkdownRemark.edges.map(({ node: { frontmatter } }) => (
-              <NavLink
-                key={`nav-${frontmatter.category}`}
-                active={frontmatter.category === category ? 1 : 0}
-                to={`/${frontmatter.category}`}
-              >
-                {categoriesDictionary[frontmatter.category]}
-              </NavLink>
-            ))}
-          </Nav>
-        </StyledHeader>
+        <>
+          <StyledHeader home={home}>
+            {home && (
+              <Image
+                fixed={data.header.childImageSharp.fixed}
+                alt={`Bíblia de estudos anotada`}
+                style={{
+                  marginBottom: 0,
+                  borderRadius: 0,
+                  width: `100%`,
+                  opacity: 0.35,
+                }}
+                imgStyle={{
+                  borderRadius: 0,
+                }}
+              />
+            )}
+            {heading}
+            <Nav>
+              {data.allMarkdownRemark.edges.map(({ node: { frontmatter } }) => (
+                <NavLink
+                  key={`nav-${frontmatter.category}`}
+                  active={frontmatter.category === category ? 1 : 0}
+                  to={`/${frontmatter.category}`}
+                >
+                  {categoriesDictionary[frontmatter.category]}
+                </NavLink>
+              ))}
+            </Nav>
+          </StyledHeader>
+        </>
       )}
     />
   )
