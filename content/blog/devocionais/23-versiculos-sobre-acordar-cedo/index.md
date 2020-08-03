@@ -1,10 +1,10 @@
 ---
 title: 23 versículos sobre acordar cedo na bíblia
 description: Quer saber o que a Bíblia diz sobre acordar cedo? Veja aqui uma lista de versículos que pode lhe ajudar nessa busca.
-date: "2020-7-01T22:12:03.284Z"
+date: "2020-07-01T22:12:03.284Z"
 
 page: post
-category: estudos-biblicos
+category: devocionais
 tags: ['santidade', 'oracao', 'buscar a deus']
 read: 3 minutos
 ---
