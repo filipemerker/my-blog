@@ -6,7 +6,7 @@ date: "2020-12-26T22:12:03.284Z"
 page: post
 category: estudos-biblicos
 tags: ['masculinidade', 'homem', 'santidade']
-read: 5 minutos
+read: 8 minutos
 ---
 
 ![Homem caminhando no campo](./man.jpg)
