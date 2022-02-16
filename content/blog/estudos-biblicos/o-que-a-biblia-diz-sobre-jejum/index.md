@@ -6,7 +6,7 @@ date: "2021-03-25T23:12:03.284Z"
 page: post
 category: estudos-biblicos
 tags: ['jejum', 'bíblia']
-read: 6 minutos
+read: 7 minutos
 ---
 
 ![Alimentos para abster-se no jejum](./jejum.jpg)
@@ -27,11 +27,11 @@ Portanto, vamos estudar juntos essa linda prática e aprender o que Deus tem par
 
 Se por um lado, jejum é uma disciplina espiritual como oração, leitura bíblica ou caridade, por outro lado, ele é diferente e especial.
 
-Jejum é especial porque, diferente da oração ou leitura bíblica, **a Deus nunca, em nenhum lugar, nos ordena a prática do jejum como mandamento**.
+Jejum é especial porque, diferente da oração ou leitura bíblica, **Deus nunca, em nenhum lugar, nos ordena a prática do jejum como mandamento**.
 
 Sim, isso pode parecer chocante e até desencorajador. Mas o que acontece é que Deus não quer que o jejum seja apenas feito por obediência. Seu desejo é que esta prática surja a partir de um coração sincero e quebrantado.
 
-É por isso que **os maiores homens e mulheres de Deus na Bíblia jejuaram**. Poorque eles entenderam o coração de Deus em relação a isso.
+É por isso que **os maiores homens e mulheres de Deus na Bíblia jejuaram**. Porque eles entenderam o coração de Deus em relação a esse assunto.
 
 ## Jejum no Antigo Testamento
 
@@ -93,11 +93,9 @@ Não apenas isso, mas fica evidente ao longo de seu ministério que Jesus jejuav
 
 Existem alguns princípios Bíblicos que podem nos ajudar a desfazer a confusão que muitas vezes existe em torno desse tema.
 
-Alguns dizem que jejum é apenas se abster de alguma coisa que nos afaste de Deus. Entretanto, o padrão das escrituras não é exatamente assim.
+Alguns dizem que jejum é apenas abster-se de algo que nos afaste de Deus. Entretanto, o padrão das escrituras não é exatamente assim.
 
 Embora possamos chamar de jejum a abstenção de qualquer coisa para a glória de Deus, a prática bíblica está quase totalmente associada aos alimentos. **Jejum, na Bíblia, significa deixar de comer por um período de tempo, de forma intencional e com propósito**. (Daniel 10:3, 2 Samuel 12:15-17)
-
-(Se você tem problemas de saúde, é bom conversar com um médico antes de jejuar por períodos mais extensos.)
 
 Por outro lado, apenas deixar de comer não necessariamente constitui o jejum que agrada ao Senhor. Em Isaías e Zacarias vemos que o verdadeiro jejum apenas pode ser feito um coração sincero e quebrantado com um clamor a Deus. Israel jejuava mas o seu coração estava longe de Deus. (Isaías 58:3-7, Zacarias 7:1-5)
 
@@ -108,7 +106,7 @@ Precisamos entender que, embora o jejum possa ser feito a qualquer momento, o ex
 > Afligi-vos, lamentai e chorai. Converta-se o vosso riso em pranto, e a vossa alegria, em tristeza. (Tg 4:9)
 >
 
-Portanto, existe um padrão em que podemos nos basear. Vejamos exemplos bíblicos de coisas que podemos fazer ao jejuar:
+O jejum, portanto, deve ter foco. Se possível devemos evitar as muitas atividades e distrações deste mundo enquanto jejuamos. A Bíblia nos apresenta e encoraja com exemplos de coisas que podemos fazer ao jejuar:
 
 - **Orar**. Jesus ensinou que jejum e oração são uma combinação poderosa.
 - **Interceder por outros**. Esse tipo de oração, em específico, está frequentemente associada ao jejum.
@@ -117,9 +115,9 @@ Portanto, existe um padrão em que podemos nos basear. Vejamos exemplos bíblico
 
 ## Quais os benefícios do jejum?
 
-Naturalmente falando, embora existam muitos benefícios positivos do jejum na área da saúde, não é isso que buscamos ao jejuar para Deus. **Embora jejum seja deixar de comer, apenas deixar de comer não é necessariamente jejum.** Faça isso com um foco claro e objetivo.
+Naturalmente falando, embora existam muitos benefícios positivos do jejum na área da saúde, não é isso que buscamos ao jejuar para Deus. **Embora jejum seja deixar de comer, apenas deixar de comer não é necessariamente jejum.**
 
-Os benefícios espirituais do jejum são vários:
+Muitos, hoje em dia, fazem dietas que exigem abstenção de alimentos, buscando benefícios estéticos. Mas o jejum segundo a bíblia tem o seu foco nas coisas de Deus e os seus benefícios são espirituais:
 
 - É uma forma de demonstrarmos **arrependimento e angústia de espírito**
 - É uma forma de ensinarmos o nosso corpo que **ele não está no controle**
@@ -138,7 +136,7 @@ Portanto, jejue!
 
 Não deixe que esse seja apenas um conhecimento teórico. No Sermão do Monte, onde Jesus ensina a jejuar, Ele também ensina que aquele que ouve as suas palavras **e as pratica**, é semelhante a um homem que edificou a sua casa sobre a Rocha.
 
-Se você puder jejuar uma vez por semana, faça!
+Se você puder jejuar uma vez por semana, faça! Se você tem problemas de saúde, é bom conversar com um médico antes de jejuar por períodos mais extensos, mas nada te impede de oferecer o seu máximo a Deus, mesmo que seja pouco aos seus olhos.
 
 Se estiver passando por lutas e tribulações, apresente-se a Deus com jejum e oração.
 
